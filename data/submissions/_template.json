@@ -1,0 +1,11 @@
+{
+  "repo": "owner/repo",
+  "url": "https://github.com/owner/repo",
+  "kind": "fork",
+  "tier": 3,
+  "desc": "填写该仓库自己的简介原文，没有就留空",
+  "note": "一句话说明它相对上游改了什么，例如：换掉整套前端并接入自建模型网关",
+  "tags": ["改名", "功能增强"],
+  "evidence": "https://github.com/owner/repo/commit/xxxx 或 README 里自述二开的段落",
+  "submittedBy": "your-github-handle"
+}

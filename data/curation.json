@@ -1,0 +1,1274 @@
+{
+ "BaaRai/ARTEX": {
+  "kind": "upstream",
+  "tier": 0,
+  "tags": [
+   "英文版",
+   "当前主干"
+  ],
+  "note": "上游删除后的事实主干，AGPL-3.0。"
+ },
+ "jiwoochris/artex-global": {
+  "kind": "distribution",
+  "tier": 0,
+  "tags": [
+   "国际化",
+   "下游分叉密集"
+  ],
+  "note": "下游分叉最密集的国际化发行版。"
+ },
+ "RuoJi6/ARTEX": {
+  "kind": "upstream",
+  "tier": 0,
+  "tags": [
+   "中文",
+   "持续维护"
+  ],
+  "note": "Autumn-27 开源版的持续维护分支。"
+ },
+ "Hinln/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "源码备份",
+   "v0.3.15"
+  ],
+  "note": "上游删除后最早的高星备份之一。"
+ },
+ "cskwork/scopeweaver": {
+  "kind": "distribution",
+  "tier": 0,
+  "tags": [
+   "改名",
+   "英韩本地化"
+  ],
+  "note": "改名 ScopeWeaver，保留 AGPL 署名。"
+ },
+ "failsafe-security/artex": {
+  "kind": "distribution",
+  "tier": 0,
+  "tags": [
+   "改名",
+   "本地构建"
+  ],
+  "note": "改名 FailSafe 的本地构建发行。"
+ },
+ "AntiFox-AI/antifox": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "品牌化"
+  ],
+  "note": "改名 AntiFox，自述“二次开发自 ARTEX”。"
+ },
+ "IlyassCODEX/ARTEX": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "功能扩展"
+  ],
+  "note": null
+ },
+ "Ernket/CodeScan-Artex": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "代码审计"
+  ],
+  "note": "整站改造为代码审计平台，并加了多账号体系。"
+ },
+ "bdg9412/artex-ko-plus": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "韩文",
+   "功能扩展"
+  ],
+  "note": null
+ },
+ "sharenjun/ARTEX-main": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "镜像"
+  ],
+  "note": null
+ },
+ "willsurpass/WSARTEX": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "改名",
+   "本地面板"
+  ],
+  "note": null
+ },
+ "Xiao1an/ARTEX-God": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "增强",
+   "后渗透",
+   "武器化"
+  ],
+  "note": "加装一键 getshell、内网横向与 IoT 协议适配。"
+ },
+ "bluechips-zhao/DITING": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "品牌化"
+  ],
+  "note": "改名“谛听”，换栈重写前端。"
+ },
+ "jaykwok/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "源码备份",
+   "附恢复指引"
+  ],
+  "note": null
+ },
+ "azrielnan/artex-ko-main": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "韩文"
+  ],
+  "note": null
+ },
+ "IcebergN2026/artex-ld": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "流程编排",
+   "内网"
+  ],
+  "note": null
+ },
+ "panda0x123/artex-ymh": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "外网打点",
+   "内网纵深"
+  ],
+  "note": null
+ },
+ "darkfibr/artex-forensics": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "取证",
+   "镜像投毒分析"
+  ],
+  "note": "拆出镜像后门与授权校验后门。"
+ },
+ "buobo/ARTEX-IOT": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "IoT"
+  ],
+  "note": null
+ },
+ "horizonl/ARTEX": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "英文UI"
+  ],
+  "note": null
+ },
+ "Team-intN18-SoybeanSeclab/prtseek": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "CTF"
+  ],
+  "note": "改造成 CTF Agent。"
+ },
+ "sebastian93921/ARTIFEX": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "改名",
+   "繁体"
+  ],
+  "note": "改名 ARTIFEX，英文 / 繁体双版本。"
+ },
+ "200210xsb/artex-full": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "自用衍生"
+  ],
+  "note": null
+ },
+ "ja1sh/artex-defense": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "Sigma",
+   "紫队"
+  ],
+  "note": null
+ },
+ "XXXXXQ-0206/focus-agent": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "编排"
+  ],
+  "note": "改名 focus-agent，重做 planner/worker 与前端。"
+ },
+ "01NGVI-QINGYI/ARIA-X": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "框架融合"
+  ],
+  "note": null
+ },
+ "tracebit-com/turingpot": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "蜜罐"
+  ],
+  "note": null
+ },
+ "bcyw/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "源码备份"
+  ],
+  "note": null
+ },
+ "yukiteruamano/artex-security": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "改名"
+  ],
+  "note": null
+ },
+ "Core-RCE/ARTEX-original-version": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "原版备份"
+  ],
+  "note": "闭源前原版源码，未二次开发。"
+ },
+ "2561769445/ycode-auto-pentest": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "品牌化"
+  ],
+  "note": "改名“月落 YUELuo”，带打点绕防与域攻击流程。"
+ },
+ "bookSiYi1412/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "冠军项目存档"
+  ],
+  "note": null
+ },
+ "wufufu770/reArtex": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "改名"
+  ],
+  "note": null
+ },
+ "yes-chen/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "非 fork 镜像"
+  ],
+  "note": null
+ },
+ "hunmeng2012/artex-hm": {
+  "kind": "fork",
+  "tier": 5,
+  "tags": [
+   "改名",
+   "社群运营",
+   "商业化"
+  ],
+  "note": "带交流群与付费站点，认证等级 Ⅴ。"
+ },
+ "wpsec/ARTEX-Pro": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "改名",
+   "存档"
+  ],
+  "note": null
+ },
+ "imxv/ARTEXX": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "改名"
+  ],
+  "note": null
+ },
+ "3185263343/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "备份"
+  ],
+  "note": null
+ },
+ "RC-CHN/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "D4rk-3ch0/artex-c": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "增强",
+   "蜜罐识别",
+   "RoE"
+  ],
+  "note": null
+ },
+ "digital-pickles/NiuDao": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "工具集成"
+  ],
+  "note": "改名 NiuDao，接 Yaklang。"
+ },
+ "mshzy/hysec-artex": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "WebShell",
+   "武器库"
+  ],
+  "note": "七组侧边栏 + WebShell 管理 + 武器库。"
+ },
+ "snowfishgo/artex-en": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "英文"
+  ],
+  "note": null
+ },
+ "ztx888/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "备份"
+  ],
+  "note": null
+ },
+ "acheong08/artex": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "海外镜像"
+  ],
+  "note": "被用于对韩攻击的工具镜像。"
+ },
+ "TATHPE/ARTEX-Endfield": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "主题",
+   "游戏皮肤"
+  ],
+  "note": "整套换成《明日方舟：终末地》皮肤。"
+ },
+ "jacklilyhello/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "源码备份"
+  ],
+  "note": null
+ },
+ "therustymate/ARTXploit": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "漏洞利用",
+   "Fail-Open 认证"
+  ],
+  "note": "公开 ARTEX 预认证 RCE。"
+ },
+ "Error336070/ARTEX": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "英文"
+  ],
+  "note": null
+ },
+ "hmruu/ARTEX-Magisk": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "Android"
+  ],
+  "note": null
+ },
+ "reckless-huang/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "备份"
+  ],
+  "note": null
+ },
+ "ating2634-boop/ARTEX-0.4.1-research": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "版本研究"
+  ],
+  "note": null
+ },
+ "bear20252026/ARTEX-release": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "预编译产物"
+  ],
+  "note": null
+ },
+ "MoLeft/ARTEX": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "镜像"
+  ],
+  "note": null
+ },
+ "richard1230/artex-backup": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "离线备份",
+   "v0.3.14"
+  ],
+  "note": null
+ },
+ "Y0neQnine/hawkeye": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "能力削减",
+   "资产监控"
+  ],
+  "note": "唯一一版主动删掉攻击能力的二开。"
+ },
+ "ThanatosXingYu/BRTEX": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "改名",
+   "魔改"
+  ],
+  "note": null
+ },
+ "Ariember/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "备份"
+  ],
+  "note": null
+ },
+ "CODAME/artex-open": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "开放副本"
+  ],
+  "note": null
+ },
+ "dunvu0/ARTEX": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "英文"
+  ],
+  "note": null
+ },
+ "froiibn/ARTEX-Desktop": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "桌面端"
+  ],
+  "note": null
+ },
+ "hater-us/Artex-update": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "架构改造",
+   "Agent"
+  ],
+  "note": "自述“黑板架构的自动化渗透 Agent”。"
+ },
+ "ThreatDefence/artex-detections": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "检测规则"
+  ],
+  "note": null
+ },
+ "wangjingtiankl/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "备份"
+  ],
+  "note": null
+ },
+ "webspoilt/bounty-hunter-": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "漏洞赏金"
+  ],
+  "note": null
+ },
+ "6ccg/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "镜像"
+  ],
+  "note": null
+ },
+ "AFOGSHEEP/artex-zh": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "中文发行"
+  ],
+  "note": null
+ },
+ "br0ny4/artex-redev": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "逆向",
+   "蓝队"
+  ],
+  "note": null
+ },
+ "chrgu000/artex": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "中文还原"
+  ],
+  "note": null
+ },
+ "Clever-rain/dsh-artex-plugin": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "DSH 插件"
+  ],
+  "note": null
+ },
+ "fanfan20001206/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "备份"
+  ],
+  "note": null
+ },
+ "j5tv9nfzhn-hue/ARTEX": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "构建流水线"
+  ],
+  "note": null
+ },
+ "j5tv9nfzhn-hue/artex-harness": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "Harness"
+  ],
+  "note": null
+ },
+ "jinniu-beep/ARTEXX-iOS": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "iOS",
+   "技能库"
+  ],
+  "note": null
+ },
+ "konanguyen/ARTEX": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "luojiaping/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "备份"
+  ],
+  "note": null
+ },
+ "luoxi0615/ARTEX": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "nina27owo/ARTEX-Controller": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "多机控制台"
+  ],
+  "note": null
+ },
+ "thalysonz/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "源码备份"
+  ],
+  "note": null
+ },
+ "Tomatamatom1/artex-ko": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "韩文"
+  ],
+  "note": null
+ },
+ "vv-get-ti/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "私有副本"
+  ],
+  "note": null
+ },
+ "xsywl945/ARTEX-mirror": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "镜像"
+  ],
+  "note": null
+ },
+ "xsywl945/artex-ymh-mirror": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "镜像"
+  ],
+  "note": null
+ },
+ "Y0neQnine/ARTEX": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "二开"
+  ],
+  "note": null
+ },
+ "AdverserialAI/artex-attack": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "英文UI",
+   "机密计算"
+  ],
+  "note": null
+ },
+ "AdverserialAI/artex-defense": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "修复验证"
+  ],
+  "note": null
+ },
+ "beeyeas/artex-defense-factory": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "威胁狩猎"
+  ],
+  "note": null
+ },
+ "Braedach/ARTEX-MUTANT": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "主动分叉",
+   "加固"
+  ],
+  "note": "自述“刻意与上游分叉，不复跟上游”。"
+ },
+ "detreaba/artex-community-skills": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "技能包"
+  ],
+  "note": null
+ },
+ "hexsen929/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "备份"
+  ],
+  "note": null
+ },
+ "lazycat-contrib/artex-lzcapp": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "懒猫微服"
+  ],
+  "note": null
+ },
+ "Lusitaniae/ARTEX": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "加固构建"
+  ],
+  "note": null
+ },
+ "pruent-labs/ARTEX": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "镜像审计"
+  ],
+  "note": null
+ },
+ "Star-Ring-1F728/Reverse-Artex": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "逆向"
+  ],
+  "note": null
+ },
+ "ventz/artex-crimson-wave": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "防御侦察"
+  ],
+  "note": null
+ },
+ "0hakxx/artex-mobile-ko": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "Android",
+   "韩文"
+  ],
+  "note": null
+ },
+ "agent-memory-atlas-archive/BaaRai--ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "归档"
+  ],
+  "note": null
+ },
+ "Alexander4731/Vestrail": {
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "增强",
+   "IoT"
+  ],
+  "note": "改名 Vestrail，强调“长链路后渗透”。"
+ },
+ "Bilabong0070/ARTEX": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "brasalabs6/artex-mcp": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "MCP"
+  ],
+  "note": null
+ },
+ "brunomarx/artex-and-friends": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "暴露面日报"
+  ],
+  "note": null
+ },
+ "catcarloslaguna/ARTEX": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "coopmarshall/ARTEX-Rip": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "Clone"
+  ],
+  "note": null
+ },
+ "CyberNeurova/artex_cn": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "国产模型"
+  ],
+  "note": null
+ },
+ "cybershadowvps/ARTEXVPS": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "VPS"
+  ],
+  "note": null
+ },
+ "Dce001/ARTEX-v0.3.15": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "个人存档"
+  ],
+  "note": null
+ },
+ "decuff/artex-frozen": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "冻结存档"
+  ],
+  "note": null
+ },
+ "demonyaksa/ARTEX.pure": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "纯净版"
+  ],
+  "note": null
+ },
+ "DevComputaria/ARTEX": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "dsagent1/Aegis-Artex": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "防御化改造"
+  ],
+  "note": null
+ },
+ "EdVanga/artex": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "ethan889-bot/Artex-Audit": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "审计"
+  ],
+  "note": null
+ },
+ "examscrusher2026/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "独立副本"
+  ],
+  "note": null
+ },
+ "examscrusher2026/artex-global": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "独立副本"
+  ],
+  "note": null
+ },
+ "examscrusher2026/ARTEX-Hinln": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "独立副本"
+  ],
+  "note": null
+ },
+ "fboiero/artex-caso-de-estudio": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "教学案例"
+  ],
+  "note": null
+ },
+ "freedomfighter-007/ARTEX-Defensive-Detection": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "YARA"
+  ],
+  "note": null
+ },
+ "Gh0xE9/open_artex": {
+  "kind": "index",
+  "tier": 0,
+  "tags": [
+   "本站"
+  ],
+  "note": "本站仓库。"
+ },
+ "haoit/artex-global": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "镜像"
+  ],
+  "note": null
+ },
+ "henryengels/artex-pentest-estudo": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "案例研究"
+  ],
+  "note": null
+ },
+ "hisashiyamaguchi/artex-ttps-gap-analysis": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "TTP 覆盖度"
+  ],
+  "note": null
+ },
+ "hwnh3333/artex": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "iAm-182/ARTEX": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "归档"
+  ],
+  "note": null
+ },
+ "jaysonguglietta/artexV2": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "版本号 +V2"
+  ],
+  "note": null
+ },
+ "johnnsonxx/artex": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "joker553/dsh-artex-ops": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "DSH 插件",
+   "编排"
+  ],
+  "note": null
+ },
+ "KaizenTechSolutions/ARTEX_": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "kostchei/artex_sandbox": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "沙箱"
+  ],
+  "note": null
+ },
+ "kumanaya/ARTEX-EN": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "lazycat-contrib/artex-global-lzcapp": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "懒猫微服"
+  ],
+  "note": null
+ },
+ "logsexe/artex-detection-as-code": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "检测即代码"
+  ],
+  "note": null
+ },
+ "Lusitaniae/artex-hardening": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "遏制基线"
+  ],
+  "note": null
+ },
+ "MiKom/artex-global": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "镜像"
+  ],
+  "note": null
+ },
+ "Mohamed2820/ARTEX-Mobile": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "移动端"
+  ],
+  "note": null
+ },
+ "mrvcode/artex-kql-hunting-playbook": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "KQL",
+   "狩猎"
+  ],
+  "note": null
+ },
+ "msee-dev/artex": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "mshzy/ARTEX-linux": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "Linux 构建"
+  ],
+  "note": null
+ },
+ "peektyer305/artex-ymh": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "日文"
+  ],
+  "note": null
+ },
+ "rainer405/ARTEX": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "rnunezrgn/AAP_Artex_hunt": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "狩猎"
+  ],
+  "note": null
+ },
+ "shenanigo/ARTEX": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "steveopen1/artex-ld": {
+  "kind": "fork",
+  "tier": 3,
+  "tags": [
+   "流程优化"
+  ],
+  "note": null
+ },
+ "Toru9X/ARTEX": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "合并特性"
+  ],
+  "note": null
+ },
+ "venu-madhav-mahadevu/artex-bank-security": {
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "攻击复盘"
+  ],
+  "note": null
+ },
+ "vu1Art1st/ARTEX-Ghoul": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "改名"
+  ],
+  "note": null
+ },
+ "watoomz/Artex_failsafe_fork_English_translation": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "英文"
+  ],
+  "note": null
+ },
+ "worder12/artex-test": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "测试"
+  ],
+  "note": null
+ },
+ "wwwillchen/artex": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "转手分叉"
+  ],
+  "note": null
+ },
+ "zengdard/artex-mobile": {
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "Android/Termux"
+  ],
+  "note": null
+ },
+ "zenneyy/ARTEX": {
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ "zhaoyangpp/ARTEX-release": {
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "Release 转存"
+  ],
+  "note": null
+ },
+ "zizz7/ARTEX-English": {
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "英文"
+  ],
+  "note": null
+ }
+}

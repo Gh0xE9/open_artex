@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#f8f7f3"/>
+  <rect x="6.5" y="6.5" width="51" height="51" fill="none" stroke="#1a1915" stroke-width="2"/>
+  <text x="32" y="43" text-anchor="middle" font-family="Times New Roman, Songti SC, serif" font-size="30" fill="#1a1915">证</text>
+  <rect x="46" y="46" width="9" height="9" fill="#a5322a"/>
+</svg>

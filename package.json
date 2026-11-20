@@ -1,0 +1,24 @@
+{
+  "name": "artex-2k-registry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ARTEX 二开认证中心 — ARTEX 衍生项目公开登记册",
+  "scripts": {
+    "dev": "node scripts/build-registry.mjs && next dev",
+    "prebuild": "node scripts/build-registry.mjs",
+    "build": "next build",
+    "start": "next start",
+    "sync": "node scripts/sync.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2"
+  }
+}

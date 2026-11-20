@@ -1,0 +1,14 @@
+{
+  "syncedAt": "2026-11-20",
+  "upstream": "BaaRai/ARTEX",
+  "queries": [
+    "artex in:name,description sort:stars",
+    "artex in:name sort:updated",
+    "ARTEX 二开 sort:updated",
+    "repos/BaaRai/ARTEX/forks",
+    "repos/RuoJi6/ARTEX/forks"
+  ],
+  "total": 153,
+  "forks": 77,
+  "stars": 26893
+}

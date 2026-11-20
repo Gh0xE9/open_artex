@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.env*.local
+build_data.py
+raw.json
+s1.json
+b.json
+own.json
+upstream.json
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+.next-*
