@@ -27,7 +27,13 @@ export function Seal({
         strokeWidth="2.4"
       />
       <rect x="9.5" y="9.5" width="81" height="81" rx="1" fill="none" stroke="#a5322a" strokeWidth="0.8" />
-      <g fill="#a5322a" fontFamily="Songti SC, SimSun, serif" fontSize="23" fontWeight="700" textAnchor="middle">
+      <g
+        fill="#a5322a"
+        fontFamily="-apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif"
+        fontSize="23"
+        fontWeight="700"
+        textAnchor="middle"
+      >
         <text x="70" y="40">二</text>
         <text x="70" y="72">开</text>
         <text x="30" y="40">认</text>
