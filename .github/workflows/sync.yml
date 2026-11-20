@@ -1,0 +1,137 @@
+name: 每日同步登记册
+
+# 每天 01:17 UTC（北京时间 09:17）重新抓取 GitHub，更新 data/ 后提交。
+# 提交到 main 会触发 Vercel 重新构建；若 Vercel 没接 Git 集成，
+# 就在仓库 Secrets 里加一个 VERCEL_DEPLOY_HOOK，末尾那步会去调它。
+
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-registry
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: 抓取 → 校验 → 提交
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      # GITHUB_TOKEN 由 Actions 自动注入，搜索接口配额 30 次/分钟，
+      # 跑完四条 query 加两次 forks 抓取绰绰有余；不带 token 会撞 60 次/小时的核心配额。
+      - name: 抓取并重建登记册
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync.mjs
+
+      # 抓取是「整体覆盖」语义：GitHub 抽风返回半份数据时，
+      # 直接用这份残缺快照提交会把站点上的条目抹掉。缩水超过 30% 就当失败处理。
+      - name: 校验快照没有异常缩水
+        run: |
+          node --input-type=module -e '
+            import { execSync } from "node:child_process";
+            import fs from "node:fs";
+
+            const total = (raw) => {
+              try { const d = JSON.parse(raw); return d.total ?? d.length ?? 0; } catch { return 0; }
+            };
+            const now = total(fs.readFileSync("data/registry.json", "utf8"));
+            let prev = 0;
+            try { prev = total(execSync("git show HEAD:data/registry.json", { encoding: "utf8" })); } catch { prev = 0; }
+
+            console.log(`上一次 ${prev} 条 → 本次 ${now} 条`);
+            if (prev >= 20 && now < prev * 0.7) {
+              console.error("条目数缩水超过 30%，判定为抓取异常，放弃本次提交。");
+              process.exit(1);
+            }
+            if (now < 20) {
+              console.error("条目数异常偏低，放弃本次提交。");
+              process.exit(1);
+            }
+          '
+
+      # 只做数据体检，不跑 next build：
+      #   * 构建交给 Vercel（push 后它会自己跑，失败也看得见）
+      #   * 每日变的是 data/，不是页面代码，全量构建只会拖长任务、增加挂掉的机会
+      - name: 校验登记册字段完整
+        run: |
+          node --input-type=module -e '
+            import fs from "node:fs";
+
+            const raw = JSON.parse(fs.readFileSync("data/registry.json", "utf8"));
+            const rows = Array.isArray(raw) ? raw : raw.entries ?? [];
+            const bad = [];
+
+            if (rows.length < 20) bad.push(`条目数异常偏低：${rows.length}`);
+
+            const seen = new Set();
+            rows.forEach((r, i) => {
+              const where = `#${i} ${r?.repo ?? "(无名)"}`;
+              if (!/^[\w.-]+\/[\w.-]+$/.test(r?.repo ?? "")) bad.push(`${where} repo 格式不对`);
+              if (!r?.url?.startsWith("https://github.com/")) bad.push(`${where} url 不是 GitHub 地址`);
+              if (!r?.id) bad.push(`${where} 缺编号`);
+              if (seen.has(r?.id)) bad.push(`${where} 编号重复：${r.id}`);
+              seen.add(r?.id);
+              if (!(Number(r?.tier) >= 0 && Number(r?.tier) <= 5)) bad.push(`${where} tier 越界：${r?.tier}`);
+            });
+
+            console.log(`登记册 ${rows.length} 条，编号 ${seen.size} 个`);
+            if (bad.length) {
+              console.error(bad.slice(0, 20).join("\n"));
+              console.error(`共 ${bad.length} 处问题，放弃本次提交。`);
+              process.exit(1);
+            }
+          '
+
+      - name: 检查变更
+        id: diff
+        run: |
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "数据无变化，跳过提交。"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --cached --stat
+          fi
+
+      - name: 提交并推送
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): 每日同步 $(TZ=Asia/Shanghai date +%F)"
+          git push
+
+      # Vercel 已接 Git 集成时，上面的 push 本身就会触发部署；
+      # 没接的话配一个 Deploy Hook 放进来，这里补一脚。
+      # 用 shell 判空而不是在 if 里引 secrets：steps.if 不支持 secrets 上下文。
+      - name: 触发 Vercel 部署
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
+            curl -fsS -X POST "$VERCEL_DEPLOY_HOOK" -o /dev/null
+            echo "已触发 Deploy Hook。"
+          else
+            echo "未配置 VERCEL_DEPLOY_HOOK，跳过（若 Vercel 已接 Git 集成则无需此步）。"
+          fi
