@@ -34,6 +34,7 @@ PR 标题格式：
 | 下架 | `[2K] 下架：ARTEX-2K-0013` | 项目方要求，需说明身份 |
 
 不想写 JSON 也行：开一个 [Issue](https://github.com/Gh0xE9/open_artex/issues/new) 贴仓库链接，维护者代填。
+维护者侧的处理命令是 `node scripts/intake.mjs <issue 编号>`：已登记的直接回编号并关闭，未登记的自动抓元数据、生成条目、分配编号。
 
 ---
 

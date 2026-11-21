@@ -59,6 +59,14 @@ export function mergeRegistry() {
       tier: s.tier ?? prev.tier,
       tags: s.tags ?? prev.tags,
       note: s.note ?? prev.note,
+      // 提交里可带一份仓库元数据快照（intake 抓的），省得等下一次 sync
+      stars: s.meta?.stars ?? prev.stars,
+      forks: s.meta?.forks ?? prev.forks,
+      lang: s.meta?.lang ?? prev.lang,
+      license: s.meta?.license ?? prev.license,
+      created: s.meta?.created ?? prev.created,
+      updated: s.meta?.updated ?? prev.updated,
+      topics: s.meta?.topics ?? prev.topics,
       source: s.evidence ?? prev.source ?? null,
       submittedBy: s.submittedBy ?? prev.submittedBy ?? null,
     });

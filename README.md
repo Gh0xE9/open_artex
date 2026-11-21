@@ -39,6 +39,7 @@ data/
 scripts/
   sync.mjs              抓取 GitHub → repos.json → registry.json
   build-registry.mjs    仅合并 submissions → registry.json
+  intake.mjs            GitHub Issue → submissions 条目（维护者用）
   lib.mjs               合并与编号逻辑
 PR.md                   提交指南（对外）
 ```
@@ -51,7 +52,14 @@ GITHUB_TOKEN=ghp_xxx npm run sync
 
 # 只合并 submissions（离线可用，CI/构建时执行）
 node scripts/build-registry.mjs
+
+# 处理一条 Issue 提交（维护者用）
+node scripts/intake.mjs 1        # 也接受 issue 完整 URL
+# 已登记 → 打印现有编号，不写文件，回复后关闭
+# 未登记 → 抓仓库元数据（stars/lang/license…），生成 submissions 条目并分配编号
 ```
+
+tier（改动深度）不自动判定：脚本给保守默认值，合并后需人工核对；tags 默认为空，需要补。
 
 编号规则：`ARTEX-2K-0001` 递增，首次分配后写入 `data/ids.json`，之后不因排名变化改号，下架后作废不复用。
 

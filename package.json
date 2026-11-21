@@ -8,7 +8,9 @@
     "prebuild": "node scripts/build-registry.mjs",
     "build": "next build",
     "start": "next start",
-    "sync": "node scripts/sync.mjs"
+    "sync": "node scripts/sync.mjs",
+    "registry": "node scripts/build-registry.mjs",
+    "intake": "node scripts/intake.mjs"
   },
   "dependencies": {
     "next": "16.4.6",
