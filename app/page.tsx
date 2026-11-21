@@ -103,6 +103,33 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="wrap">
+        <section className="statement" id="why">
+          <div className="statement-head">
+            <div className="statement-kicker">Statement / 00</div>
+            <h2 className="statement-title">为什么会有这个站</h2>
+          </div>
+          <div className="statement-body">
+            <p className="statement-lead">
+              见过太多这样的场面：把 ARTEX 的源码拉下来，让 AI 逐文件改一遍——改包名、换配色、重写注释、抹掉原作者的名字——然后对外说，这是自己从零做的产品。
+            </p>
+            <p>
+              这不是个案。同一份源码，只换了一层皮，就在汇报里成了「我们的自研平台」，从头到尾一个字没提
+              ARTEX。名录里 {stats.forks} 个二开项目，只有 {stats.attributedForks} 个在简介里写了来源。
+            </p>
+            <p>
+              这不叫二开。二开是在别人的地基上继续盖，并且说清楚地基是谁打的。Ⅰ
+              级搬运好歹留着上游链接，Ⅳ 级重构大多也在 README 里注明了上游。而把一份 AGPL-3.0
+              的代码洗成自己的东西，抹掉署名不会改变它仍是衍生作品——
+              <strong>许可协议该约束的照样约束，只是原作者大多没精力去打官司</strong>。
+            </p>
+            <p className="statement-sign">
+              核实成本太低，维权成本太高，所以这种事一直在发生。既然挡不住，那就先登记下来。
+            </p>
+          </div>
+        </section>
+      </div>
+
       <section className="section" id="registry">
         <div className="wrap">
           <div className="section-head">

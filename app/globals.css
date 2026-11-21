@@ -360,6 +360,69 @@ h1.hero-title {
   color: var(--muted);
 }
 
+/* ---------- statement ---------- */
+
+.statement {
+  margin-top: 56px;
+  border-top: 2px solid var(--ink);
+  padding-top: 26px;
+  display: grid;
+  grid-template-columns: 168px minmax(0, 1fr);
+  gap: 44px;
+}
+
+.statement-kicker {
+  font-family: var(--mono);
+  font-size: 9px;
+  line-height: 1.2;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+h2.statement-title {
+  font-family: var(--sans);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--ink);
+  letter-spacing: 0.01em;
+}
+
+.statement-body {
+  max-width: 820px;
+}
+
+.statement-body p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--ink-soft);
+  margin: 0 0 24px;
+  text-wrap: pretty;
+}
+
+.statement-body .statement-lead {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--ink);
+  margin-bottom: 26px;
+}
+
+.statement-body strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.statement-body .statement-sign {
+  margin: 22px 0 0;
+  padding-left: 14px;
+  border-left: 2px solid var(--seal);
+  color: var(--ink);
+  font-weight: 500;
+}
+
 /* ---------- section ---------- */
 
 .section {
@@ -1208,6 +1271,10 @@ table.registry td:last-child {
   .seal-panel {
     max-width: 320px;
   }
+  .statement {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
   .cta {
     grid-template-columns: 1fr;
     gap: 24px;
@@ -1217,6 +1284,22 @@ table.registry td:last-child {
 @media (max-width: 820px) {
   .wrap {
     padding: 0 18px;
+  }
+  .statement {
+    margin-top: 40px;
+    padding-top: 22px;
+    gap: 12px;
+  }
+  h2.statement-title {
+    font-size: 19px;
+  }
+  .statement-body .statement-lead {
+    font-size: 15px;
+    line-height: 1.85;
+    margin-bottom: 20px;
+  }
+  .statement-body p {
+    margin-bottom: 20px;
   }
   h1.hero-title {
     font-size: 34px;

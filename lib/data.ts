@@ -93,5 +93,7 @@ export const stats = {
   forks: countByKind("fork"),
   stars: repos.reduce((s, r) => s + r.stars, 0),
   attributed: repos.filter((r) => r.attribution).length,
+  /** 二开项目中在简介里标注了上游来源的数量 */
+  attributedForks: repos.filter((r) => r.kind === "fork" && r.attribution).length,
   syncedAt: meta.syncedAt,
 };
