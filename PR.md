@@ -138,7 +138,7 @@ PR 标题格式：
 合并并部署后，项目详情页会生成一枚 SVG 徽章：
 
 ```markdown
-[![ARTEX 二开认证](https://artex-2k.vercel.app/badge/ARTEX-2K-0013.svg)](https://artex-2k.vercel.app/p/ARTEX-2K-0013)
+[![ARTEX 二开认证](https://openartex.vercel.app/badge/ARTEX-2K-0013.svg)](https://openartex.vercel.app/p/ARTEX-2K-0013)
 ```
 
 贴进 README 即可。徽章只表示“已登记”，不代表本站认可、审计或担保该项目。

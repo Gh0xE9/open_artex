@@ -4,8 +4,7 @@ import type { Metadata } from "next";
 import { CopyBox } from "@/components/CopyBox";
 import { Seal } from "@/components/Seal";
 import { KIND_LABEL, byId, repos, tierOf } from "@/lib/data";
-
-const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? "https://artex-2k.vercel.app";
+import { badgeMarkdown, SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
   return repos.map((r) => ({ id: r.id }));
@@ -20,7 +19,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${r.name} · ${r.id}`,
     description: r.desc || `${r.repo} 的 ARTEX 二开认证记录`,
-    openGraph: { title: `${r.id} — ${r.repo}`, description: r.desc },
+    alternates: { canonical: `${SITE_URL}/p/${r.id}` },
+    openGraph: {
+      title: `${r.id} — ${r.repo}`,
+      description: r.desc,
+      url: `${SITE_URL}/p/${r.id}`,
+    },
   };
 }
 
@@ -33,7 +37,7 @@ export default async function CertPage({ params }: Props) {
   const idx = repos.findIndex((x) => x.id === r.id);
   const prev = repos[idx - 1];
   const next = repos[idx + 1];
-  const badgeMd = `[![ARTEX 二开认证](${SITE}/badge/${r.id}.svg)](${SITE}/p/${r.id})`;
+  const badgeMd = badgeMarkdown(r.id);
 
   return (
     <div className="wrap">

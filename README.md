@@ -1,5 +1,7 @@
 # ARTEX 二开认证中心
 
+线上地址：**https://openartex.vercel.app**
+
 ARTEX 上游（`Autumn-27/ARTEX`）已于 2026 年 10 月从 GitHub 删除，源码以 v0.3.15 的形式在数十个仓库间流转，
 改名、换皮、加装武器库后重新上线。这个站点把它们全部登记在册，按改动深度授予 Ⅰ—Ⅴ 级认证。
 
@@ -56,7 +58,8 @@ node scripts/build-registry.mjs
 ## 部署到 Vercel
 
 1. 推到 GitHub，在 Vercel 里 Import 该仓库（框架自动识别 Next.js）。
-2. 设置环境变量 `NEXT_PUBLIC_SITE_URL=https://<你的域名>`，徽章的 Markdown 片段会用这个域名。
+2. 站点绝对地址默认已是 `https://openartex.vercel.app`；换域名时设 `NEXT_PUBLIC_SITE_URL` 覆盖。
+   徽章 Markdown/HTML 片段、详情页 canonical、`sitemap.xml`、`robots.txt` 全部由它派生（`lib/site.ts` 是唯一来源）。
 3. 可选：加 `GITHUB_TOKEN`，供本地或 CI 跑 `npm run sync`；站点构建本身不联网。
 
 `npm run build` 会先执行 `prebuild` 合并提交，再静态生成所有详情页，无需数据库。
