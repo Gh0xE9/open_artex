@@ -5,12 +5,12 @@
   "owner": "BaaRai",
   "url": "https://github.com/BaaRai/ARTEX",
   "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
-  "stars": 12775,
-  "forks": 5084,
+  "stars": 14072,
+  "forks": 5482,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-08",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "topics": [
    "ai",
    "ai-agents",
@@ -25,9 +25,7 @@
    "英文版",
    "当前主干"
   ],
-  "note": "上游删除后的事实主干，AGPL-3.0。",
-  "attribution": true,
-  "id": "ARTEX-2K-0001"
+  "note": "上游删除后的事实主干，AGPL-3.0。"
  },
  {
   "repo": "jiwoochris/artex-global",
@@ -35,8 +33,8 @@
   "owner": "jiwoochris",
   "url": "https://github.com/jiwoochris/artex-global",
   "desc": "Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)",
-  "stars": 4224,
-  "forks": 3507,
+  "stars": 4315,
+  "forks": 3581,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-03",
@@ -55,9 +53,32 @@
    "国际化",
    "下游分叉密集"
   ],
-  "note": "下游分叉最密集的国际化发行版。",
-  "attribution": true,
-  "id": "ARTEX-2K-0002"
+  "note": "下游分叉最密集的国际化发行版。"
+ },
+ {
+  "repo": "Armur-Ai/Pentest-Swarm-AI",
+  "name": "Pentest-Swarm-AI",
+  "owner": "Armur-Ai",
+  "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+  "desc": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
+  "stars": 3274,
+  "forks": 608,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2024-03-26",
+  "updated": "2026-11-21",
+  "topics": [
+   "ai-agents",
+   "bug-bounty",
+   "cybersecurity",
+   "offensive-security",
+   "penetration-testing",
+   "penetration-testing-framework"
+  ],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "RuoJi6/ARTEX",
@@ -65,8 +86,8 @@
   "owner": "RuoJi6",
   "url": "https://github.com/RuoJi6/ARTEX",
   "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
-  "stars": 2352,
-  "forks": 1437,
+  "stars": 2392,
+  "forks": 1458,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-09",
@@ -82,9 +103,7 @@
    "中文",
    "持续维护"
   ],
-  "note": "Autumn-27 开源版的持续维护分支。",
-  "attribution": true,
-  "id": "ARTEX-2K-0003"
+  "note": "Autumn-27 开源版的持续维护分支。"
  },
  {
   "repo": "Hinln/ARTEX",
@@ -92,8 +111,8 @@
   "owner": "Hinln",
   "url": "https://github.com/Hinln/ARTEX",
   "desc": "ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。",
-  "stars": 1726,
-  "forks": 2249,
+  "stars": 1745,
+  "forks": 2264,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-08",
@@ -105,9 +124,7 @@
    "源码备份",
    "v0.3.15"
   ],
-  "note": "上游删除后最早的高星备份之一。",
-  "attribution": true,
-  "id": "ARTEX-2K-0004"
+  "note": "上游删除后最早的高星备份之一。"
  },
  {
   "repo": "cskwork/scopeweaver",
@@ -115,8 +132,8 @@
   "owner": "cskwork",
   "url": "https://github.com/cskwork/scopeweaver",
   "desc": "ScopeWeaver: English and Korean localization of ARTEX, with preserved AGPL-3.0 attribution.",
-  "stars": 1143,
-  "forks": 864,
+  "stars": 1150,
+  "forks": 868,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-02",
@@ -128,9 +145,7 @@
    "改名",
    "英韩本地化"
   ],
-  "note": "改名 ScopeWeaver，保留 AGPL 署名。",
-  "attribution": true,
-  "id": "ARTEX-2K-0005"
+  "note": "改名 ScopeWeaver，保留 AGPL 署名。"
  },
  {
   "repo": "failsafe-security/artex",
@@ -138,8 +153,8 @@
   "owner": "failsafe-security",
   "url": "https://github.com/failsafe-security/artex",
   "desc": "Source-built, locally bound FailSafe distribution of ARTEX (v0.3.15)",
-  "stars": 888,
-  "forks": 295,
+  "stars": 903,
+  "forks": 305,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-11-10",
@@ -151,9 +166,7 @@
    "改名",
    "本地构建"
   ],
-  "note": "改名 FailSafe 的本地构建发行。",
-  "attribution": true,
-  "id": "ARTEX-2K-0006"
+  "note": "改名 FailSafe 的本地构建发行。"
  },
  {
   "repo": "AntiFox-AI/antifox",
@@ -161,8 +174,8 @@
   "owner": "AntiFox-AI",
   "url": "https://github.com/AntiFox-AI/antifox",
   "desc": "AI 自主渗透测试平台 · 多智能体自主渗透测试（二次开发自 ARTEX）",
-  "stars": 822,
-  "forks": 532,
+  "stars": 833,
+  "forks": 539,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-09",
@@ -174,9 +187,7 @@
    "改名",
    "品牌化"
   ],
-  "note": "改名 AntiFox，自述“二次开发自 ARTEX”。",
-  "attribution": true,
-  "id": "ARTEX-2K-0007"
+  "note": "改名 AntiFox，自述“二次开发自 ARTEX”。"
  },
  {
   "repo": "IlyassCODEX/ARTEX",
@@ -184,8 +195,8 @@
   "owner": "IlyassCODEX",
   "url": "https://github.com/IlyassCODEX/ARTEX",
   "desc": "ARTEX is an advanced web application security analysis platform that automates reconnaissance, vulnerability scanning, threat assessment and AI-powered security recommendations for modern web applications and infrastructure.",
-  "stars": 374,
-  "forks": 223,
+  "stars": 387,
+  "forks": 229,
   "lang": "Python",
   "license": null,
   "created": "2025-07-16",
@@ -196,9 +207,7 @@
   "tags": [
    "功能扩展"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0008"
+  "note": null
  },
  {
   "repo": "Ernket/CodeScan-Artex",
@@ -206,8 +215,8 @@
   "owner": "Ernket",
   "url": "https://github.com/Ernket/CodeScan-Artex",
   "desc": "二开artex的代码审计平台 | 新增本地反编译java依赖库 | 多账号管理",
-  "stars": 349,
-  "forks": 181,
+  "stars": 348,
+  "forks": 182,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-14",
@@ -219,9 +228,7 @@
    "改名",
    "代码审计"
   ],
-  "note": "整站改造为代码审计平台，并加了多账号体系。",
-  "attribution": true,
-  "id": "ARTEX-2K-0009"
+  "note": "整站改造为代码审计平台，并加了多账号体系。"
  },
  {
   "repo": "bdg9412/artex-ko-plus",
@@ -249,9 +256,7 @@
    "韩文",
    "功能扩展"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0010"
+  "note": null
  },
  {
   "repo": "sharenjun/ARTEX-main",
@@ -259,7 +264,7 @@
   "owner": "sharenjun",
   "url": "https://github.com/sharenjun/ARTEX-main",
   "desc": "可以提交issue和优化思路，会维护",
-  "stars": 163,
+  "stars": 164,
   "forks": 82,
   "lang": "Go",
   "license": "AGPL-3.0",
@@ -271,9 +276,7 @@
   "tags": [
    "镜像"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0011"
+  "note": null
  },
  {
   "repo": "willsurpass/WSARTEX",
@@ -282,7 +285,7 @@
   "url": "https://github.com/willsurpass/WSARTEX",
   "desc": "基于 ARTEX 的 AI 自主渗透测试系统，支持多 Agent 协作、资产探索与漏洞管理，提供本地部署面板。",
   "stars": 143,
-  "forks": 51,
+  "forks": 50,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-17",
@@ -301,9 +304,7 @@
    "改名",
    "本地面板"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0012"
+  "note": null
  },
  {
   "repo": "Xiao1an/ARTEX-God",
@@ -311,8 +312,8 @@
   "owner": "Xiao1an",
   "url": "https://github.com/Xiao1an/ARTEX-God",
   "desc": "ARTEX二开增强版-优化敏感操作拦截，增加一键getshell、长链路后渗透、内网横向、逻辑漏洞增强、卫星等IOT协议测试适配等...",
-  "stars": 130,
-  "forks": 102,
+  "stars": 134,
+  "forks": 103,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-21",
@@ -325,9 +326,35 @@
    "后渗透",
    "武器化"
   ],
-  "note": "加装一键 getshell、内网横向与 IoT 协议适配。",
-  "attribution": true,
-  "id": "ARTEX-2K-0013"
+  "note": "加装一键 getshell、内网横向与 IoT 协议适配。"
+ },
+ {
+  "repo": "jaykwok/ARTEX",
+  "name": "ARTEX",
+  "owner": "jaykwok",
+  "url": "https://github.com/jaykwok/ARTEX",
+  "desc": "ARTEX ：AI 自主渗透测试系统（Go + Next.js），基于 Autumn-27/ARTEX v0.3.15（e6ec569，AGPL-3.0）。原版 v0.3.15 下载说明与恢复指引见 README。",
+  "stars": 130,
+  "forks": 79,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-10-19",
+  "updated": "2026-11-16",
+  "topics": [
+   "agpl-3-0",
+   "ai-agents",
+   "artex",
+   "golang",
+   "llm",
+   "nextjs"
+  ],
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "源码备份",
+   "附恢复指引"
+  ],
+  "note": null
  },
  {
   "repo": "bluechips-zhao/DITING",
@@ -348,39 +375,28 @@
    "改名",
    "品牌化"
   ],
-  "note": "改名“谛听”，换栈重写前端。",
-  "attribution": true,
-  "id": "ARTEX-2K-0014"
+  "note": "改名“谛听”，换栈重写前端。"
  },
  {
-  "repo": "jaykwok/ARTEX",
-  "name": "ARTEX",
-  "owner": "jaykwok",
-  "url": "https://github.com/jaykwok/ARTEX",
-  "desc": "ARTEX ：AI 自主渗透测试系统（Go + Next.js），基于 Autumn-27/ARTEX v0.3.15（e6ec569，AGPL-3.0）。原版 v0.3.15 下载说明与恢复指引见 README。",
-  "stars": 125,
-  "forks": 78,
+  "repo": "IcebergN2026/artex-ld",
+  "name": "artex-ld",
+  "owner": "IcebergN2026",
+  "url": "https://github.com/IcebergN2026/artex-ld",
+  "desc": "artex 流程优化及落地，适配内网渗透/审核intent/漏洞挖掘/代码审计等多场景，可自定义编排。",
+  "stars": 114,
+  "forks": 86,
   "lang": "Go",
   "license": "AGPL-3.0",
-  "created": "2026-10-19",
-  "updated": "2026-11-16",
-  "topics": [
-   "agpl-3-0",
-   "ai-agents",
-   "artex",
-   "golang",
-   "llm",
-   "nextjs"
-  ],
-  "kind": "mirror",
-  "tier": 0,
+  "created": "2026-10-27",
+  "updated": "2026-11-17",
+  "topics": [],
+  "kind": "fork",
+  "tier": 3,
   "tags": [
-   "源码备份",
-   "附恢复指引"
+   "流程编排",
+   "内网"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0015"
+  "note": null
  },
  {
   "repo": "azrielnan/artex-ko-main",
@@ -400,32 +416,7 @@
   "tags": [
    "韩文"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0016"
- },
- {
-  "repo": "IcebergN2026/artex-ld",
-  "name": "artex-ld",
-  "owner": "IcebergN2026",
-  "url": "https://github.com/IcebergN2026/artex-ld",
-  "desc": "artex 流程优化及落地，适配内网渗透/审核intent/漏洞挖掘/代码审计等多场景，可自定义编排。",
-  "stars": 113,
-  "forks": 86,
-  "lang": "Go",
-  "license": "AGPL-3.0",
-  "created": "2026-10-27",
-  "updated": "2026-11-17",
-  "topics": [],
-  "kind": "fork",
-  "tier": 3,
-  "tags": [
-   "流程编排",
-   "内网"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0017"
+  "note": null
  },
  {
   "repo": "panda0x123/artex-ymh",
@@ -433,8 +424,8 @@
   "owner": "panda0x123",
   "url": "https://github.com/panda0x123/artex-ymh",
   "desc": "ARTEX 二次开发版:外网突破→内网纵深全流程自主渗透平台(上游 Autumn-27/ARTEX,AGPL-3.0)",
-  "stars": 96,
-  "forks": 577,
+  "stars": 98,
+  "forks": 581,
   "lang": null,
   "license": "AGPL-3.0",
   "created": "2026-09-22",
@@ -446,9 +437,34 @@
    "外网打点",
    "内网纵深"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0018"
+  "note": null
+ },
+ {
+  "repo": "01NGVI-QINGYI/ARIA-X",
+  "name": "ARIA-X",
+  "owner": "01NGVI-QINGYI",
+  "url": "https://github.com/01NGVI-QINGYI/ARIA-X",
+  "desc": "Local-first state-space reasoning engine for security research. Fuses ARTEX, Cairn & PentAGI. Python, zero dependencies.",
+  "stars": 81,
+  "forks": 33,
+  "lang": "Python",
+  "license": "AGPL-3.0",
+  "created": "2026-10-23",
+  "updated": "2026-11-10",
+  "topics": [
+   "ai-agents",
+   "aria-x",
+   "artex",
+   "cairn",
+   "llm",
+   "penetration-testing"
+  ],
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "框架融合"
+  ],
+  "note": null
  },
  {
   "repo": "darkfibr/artex-forensics",
@@ -469,9 +485,28 @@
    "取证",
    "镜像投毒分析"
   ],
-  "note": "拆出镜像后门与授权校验后门。",
-  "attribution": false,
-  "id": "ARTEX-2K-0019"
+  "note": "拆出镜像后门与授权校验后门。"
+ },
+ {
+  "repo": "Team-intN18-SoybeanSeclab/prtseek",
+  "name": "prtseek",
+  "owner": "Team-intN18-SoybeanSeclab",
+  "url": "https://github.com/Team-intN18-SoybeanSeclab/prtseek",
+  "desc": "基于ARTEX的CTF Agent",
+  "stars": 76,
+  "forks": 26,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-09",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "CTF"
+  ],
+  "note": "改造成 CTF Agent。"
  },
  {
   "repo": "buobo/ARTEX-IOT",
@@ -479,8 +514,8 @@
   "owner": "buobo",
   "url": "https://github.com/buobo/ARTEX-IOT",
   "desc": "",
-  "stars": 70,
-  "forks": 33,
+  "stars": 71,
+  "forks": 35,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-11-12",
@@ -491,9 +526,7 @@
   "tags": [
    "IoT"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0020"
+  "note": null
  },
  {
   "repo": "horizonl/ARTEX",
@@ -501,8 +534,8 @@
   "owner": "horizonl",
   "url": "https://github.com/horizonl/ARTEX",
   "desc": "ARTEX - AI autonomous pentest system, English UI build (upstream: Autumn-27/ARTEX)",
-  "stars": 68,
-  "forks": 140,
+  "stars": 70,
+  "forks": 143,
   "lang": null,
   "license": "AGPL-3.0",
   "created": "2026-10-08",
@@ -513,32 +546,7 @@
   "tags": [
    "英文UI"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0021"
- },
- {
-  "repo": "Team-intN18-SoybeanSeclab/prtseek",
-  "name": "prtseek",
-  "owner": "Team-intN18-SoybeanSeclab",
-  "url": "https://github.com/Team-intN18-SoybeanSeclab/prtseek",
-  "desc": "基于ARTEX的CTF Agent",
-  "stars": 63,
-  "forks": 21,
-  "lang": "Go",
-  "license": "AGPL-3.0",
-  "created": "2026-11-09",
-  "updated": "2026-11-17",
-  "topics": [],
-  "kind": "fork",
-  "tier": 4,
-  "tags": [
-   "改名",
-   "CTF"
-  ],
-  "note": "改造成 CTF Agent。",
-  "attribution": true,
-  "id": "ARTEX-2K-0022"
+  "note": null
  },
  {
   "repo": "sebastian93921/ARTIFEX",
@@ -559,9 +567,27 @@
    "改名",
    "繁体"
   ],
-  "note": "改名 ARTIFEX，英文 / 繁体双版本。",
-  "attribution": false,
-  "id": "ARTEX-2K-0023"
+  "note": "改名 ARTIFEX，英文 / 繁体双版本。"
+ },
+ {
+  "repo": "bcyw/ARTEX",
+  "name": "ARTEX",
+  "owner": "bcyw",
+  "url": "https://github.com/bcyw/ARTEX",
+  "desc": "ARTEX - LLM multi-agent autonomous pentest system (Go + embedded Next.js + SQLite)",
+  "stars": 49,
+  "forks": 27,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "源码备份"
+  ],
+  "note": null
  },
  {
   "repo": "200210xsb/artex-full",
@@ -581,9 +607,34 @@
   "tags": [
    "自用衍生"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0024"
+  "note": null
+ },
+ {
+  "repo": "tracebit-com/turingpot",
+  "name": "turingpot",
+  "owner": "tracebit-com",
+  "url": "https://github.com/tracebit-com/turingpot",
+  "desc": "An open-source AI agent honeypot proof of concept for investigating ARTEX and other autonomous offensive frameworks (AOFs).",
+  "stars": 44,
+  "forks": 1,
+  "lang": "JavaScript",
+  "license": "MIT",
+  "created": "2026-11-19",
+  "updated": "2026-11-19",
+  "topics": [
+   "ai-agents",
+   "ai-security",
+   "artex",
+   "autonomous-offensive-frameworks",
+   "blue-team",
+   "cloudflare-workers"
+  ],
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "蜜罐"
+  ],
+  "note": null
  },
  {
   "repo": "ja1sh/artex-defense",
@@ -592,7 +643,7 @@
   "url": "https://github.com/ja1sh/artex-defense",
   "desc": "A Sigma detection pack and offline purple-team test harness for ARTEX-relevant behavior. Includes seven behavioral rules, five correlations and two upstream Xint/Theori fingerprints, with fixtures, telemetry requirements and a validation playbook.",
   "stars": 40,
-  "forks": 14,
+  "forks": 15,
   "lang": "Python",
   "license": "NOASSERTION",
   "created": "2026-11-15",
@@ -604,9 +655,7 @@
    "Sigma",
    "紫队"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0025"
+  "note": null
  },
  {
   "repo": "XXXXXQ-0206/focus-agent",
@@ -627,89 +676,53 @@
    "改名",
    "编排"
   ],
-  "note": "改名 focus-agent，重做 planner/worker 与前端。",
-  "attribution": true,
-  "id": "ARTEX-2K-0026"
+  "note": "改名 focus-agent，重做 planner/worker 与前端。"
  },
  {
-  "repo": "01NGVI-QINGYI/ARIA-X",
-  "name": "ARIA-X",
-  "owner": "01NGVI-QINGYI",
-  "url": "https://github.com/01NGVI-QINGYI/ARIA-X",
-  "desc": "Local-first state-space reasoning engine for security research. Fuses ARTEX, Cairn & PentAGI. Python, zero dependencies.",
+  "repo": "fareedfauzi/MANTIS",
+  "name": "MANTIS",
+  "owner": "fareedfauzi",
+  "url": "https://github.com/fareedfauzi/MANTIS",
+  "desc": "Multi-Source Analysis & Threat Intelligence Search",
   "stars": 35,
-  "forks": 19,
+  "forks": 3,
   "lang": "Python",
-  "license": "AGPL-3.0",
-  "created": "2026-10-23",
-  "updated": "2026-11-10",
-  "topics": [
-   "ai-agents",
-   "aria-x",
-   "artex",
-   "cairn",
-   "llm",
-   "penetration-testing"
-  ],
-  "kind": "tool",
-  "tier": 0,
-  "tags": [
-   "框架融合"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0027"
- },
- {
-  "repo": "tracebit-com/turingpot",
-  "name": "turingpot",
-  "owner": "tracebit-com",
-  "url": "https://github.com/tracebit-com/turingpot",
-  "desc": "An open-source AI agent honeypot proof of concept for investigating ARTEX and other autonomous offensive frameworks (AOFs).",
-  "stars": 35,
-  "forks": 1,
-  "lang": "JavaScript",
   "license": "MIT",
-  "created": "2026-11-19",
-  "updated": "2026-11-19",
+  "created": "2026-10-29",
+  "updated": "2026-11-21",
   "topics": [
-   "ai-agents",
-   "ai-security",
-   "artex",
-   "autonomous-offensive-frameworks",
-   "blue-team",
-   "cloudflare-workers"
+   "threat-intel",
+   "threat-intelligence"
   ],
-  "kind": "defense",
-  "tier": 0,
-  "tags": [
-   "蜜罐"
-  ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0028"
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
-  "repo": "bcyw/ARTEX",
-  "name": "ARTEX",
-  "owner": "bcyw",
-  "url": "https://github.com/bcyw/ARTEX",
-  "desc": "ARTEX - LLM multi-agent autonomous pentest system (Go + embedded Next.js + SQLite)",
-  "stars": 33,
+  "repo": "tayyabimam1/awesome-ai-agent-stack",
+  "name": "awesome-ai-agent-stack",
+  "owner": "tayyabimam1",
+  "url": "https://github.com/tayyabimam1/awesome-ai-agent-stack",
+  "desc": "Curated map of 6,000+ open-source AI agent tools: coding agents, agent frameworks, MCP servers, RAG, memory and local LLMs, sorted by layer and ranked by GitHub stars.",
+  "stars": 34,
   "forks": 16,
-  "lang": "Go",
-  "license": "AGPL-3.0",
-  "created": "2026-11-19",
-  "updated": "2026-11-19",
-  "topics": [],
-  "kind": "mirror",
-  "tier": 0,
-  "tags": [
-   "源码备份"
+  "lang": "HTML",
+  "license": "CC-BY-4.0",
+  "created": "2026-09-18",
+  "updated": "2026-11-21",
+  "topics": [
+   "agentic-ai",
+   "ai-agents",
+   "ai-tools",
+   "artificial-intelligence",
+   "awesome",
+   "awesome-list"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0029"
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "yukiteruamano/artex-security",
@@ -717,8 +730,8 @@
   "owner": "yukiteruamano",
   "url": "https://github.com/yukiteruamano/artex-security",
   "desc": "",
-  "stars": 26,
-  "forks": 16,
+  "stars": 32,
+  "forks": 17,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-11-04",
@@ -729,9 +742,25 @@
   "tags": [
    "改名"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0030"
+  "note": null
+ },
+ {
+  "repo": "ThreatDefence/agentic-attack-detections",
+  "name": "agentic-attack-detections",
+  "owner": "ThreatDefence",
+  "url": "https://github.com/ThreatDefence/agentic-attack-detections",
+  "desc": "Detection rules, KQL hunts, Sigma, Suricata, YARA and indicators for agentic attack frameworks: ARTEX, Cairn and the behaviors they share",
+  "stars": 29,
+  "forks": 6,
+  "lang": "Python",
+  "license": "MIT",
+  "created": "2026-11-20",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "Core-RCE/ARTEX-original-version",
@@ -739,8 +768,8 @@
   "owner": "Core-RCE",
   "url": "https://github.com/Core-RCE/ARTEX-original-version",
   "desc": "ARTEX 官方闭源前的开源源码备份，保留原始代码，未经二次开发，遵循 AGPL-3.0 开源协议 | Archive of the original open-source ARTEX codebase before it became closed-source. Unmodified and licensed under AGPL-3.0.",
-  "stars": 25,
-  "forks": 35,
+  "stars": 27,
+  "forks": 38,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-13",
@@ -753,32 +782,7 @@
   "tags": [
    "原版备份"
   ],
-  "note": "闭源前原版源码，未二次开发。",
-  "attribution": true,
-  "id": "ARTEX-2K-0031"
- },
- {
-  "repo": "2561769445/ycode-auto-pentest",
-  "name": "ycode-auto-pentest",
-  "owner": "2561769445",
-  "url": "https://github.com/2561769445/ycode-auto-pentest",
-  "desc": "ycode 自动化渗透（月落 YUELuo）— ARTEX 0.3.23 月落二开版：AI 自主渗透测试平台，打点绕防 / 内网纵深 / Windows 域攻击 / 报告自动化。仅供授权测试与学习研究。",
-  "stars": 23,
-  "forks": 16,
-  "lang": "Go",
-  "license": "AGPL-3.0",
-  "created": "2026-10-26",
-  "updated": "2026-10-26",
-  "topics": [],
-  "kind": "fork",
-  "tier": 4,
-  "tags": [
-   "改名",
-   "品牌化"
-  ],
-  "note": "改名“月落 YUELuo”，带打点绕防与域攻击流程。",
-  "attribution": true,
-  "id": "ARTEX-2K-0032"
+  "note": "闭源前原版源码，未二次开发。"
  },
  {
   "repo": "bookSiYi1412/ARTEX",
@@ -786,7 +790,7 @@
   "owner": "bookSiYi1412",
   "url": "https://github.com/bookSiYi1412/ARTEX",
   "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
-  "stars": 23,
+  "stars": 24,
   "forks": 18,
   "lang": "Go",
   "license": "AGPL-3.0",
@@ -798,9 +802,51 @@
   "tags": [
    "冠军项目存档"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0033"
+  "note": null
+ },
+ {
+  "repo": "2561769445/ycode-auto-pentest",
+  "name": "ycode-auto-pentest",
+  "owner": "2561769445",
+  "url": "https://github.com/2561769445/ycode-auto-pentest",
+  "desc": "ycode 自动化渗透（月落 YUELuo）— ARTEX 0.3.23 月落二开版：AI 自主渗透测试平台，打点绕防 / 内网纵深 / Windows 域攻击 / 报告自动化。仅供授权测试与学习研究。",
+  "stars": 23,
+  "forks": 18,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "topics": [],
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "品牌化"
+  ],
+  "note": "改名“月落 YUELuo”，带打点绕防与域攻击流程。"
+ },
+ {
+  "repo": "AnEntrypoint/awesome-github",
+  "name": "awesome-github",
+  "owner": "AnEntrypoint",
+  "url": "https://github.com/AnEntrypoint/awesome-github",
+  "desc": "awesome projects on github",
+  "stars": 22,
+  "forks": 1,
+  "lang": "JavaScript",
+  "license": null,
+  "created": "2026-08-03",
+  "updated": "2026-11-21",
+  "topics": [
+   "awesome",
+   "awesome-list",
+   "awesome-lists",
+   "awesomeness"
+  ],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "wufufu770/reArtex",
@@ -808,7 +854,7 @@
   "owner": "wufufu770",
   "url": "https://github.com/wufufu770/reArtex",
   "desc": "对Artex的二次开发",
-  "stars": 18,
+  "stars": 19,
   "forks": 15,
   "lang": "Go",
   "license": "AGPL-3.0",
@@ -827,9 +873,43 @@
   "tags": [
    "改名"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0034"
+  "note": null
+ },
+ {
+  "repo": "sivolko/cybersec-oss-showcase",
+  "name": "cybersec-oss-showcase",
+  "owner": "sivolko",
+  "url": "https://github.com/sivolko/cybersec-oss-showcase",
+  "desc": "🔐 Curated collection of the best open source cybersecurity tools, automatically updated with GitHub metrics",
+  "stars": 18,
+  "forks": 1,
+  "lang": "Python",
+  "license": null,
+  "created": "2025-05-25",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "AliZakaee/ARTEX",
+  "name": "ARTEX",
+  "owner": "AliZakaee",
+  "url": "https://github.com/AliZakaee/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 16,
+  "forks": 4,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-02",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "yes-chen/ARTEX",
@@ -849,9 +929,7 @@
   "tags": [
    "非 fork 镜像"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0035"
+  "note": null
  },
  {
   "repo": "hunmeng2012/artex-hm",
@@ -864,7 +942,7 @@
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-11-04",
-  "updated": "2026-11-19",
+  "updated": "2026-11-21",
   "topics": [],
   "kind": "fork",
   "tier": 5,
@@ -873,9 +951,7 @@
    "社群运营",
    "商业化"
   ],
-  "note": "带交流群与付费站点，认证等级 Ⅴ。",
-  "attribution": true,
-  "id": "ARTEX-2K-0036"
+  "note": "带交流群与付费站点，认证等级 Ⅴ。"
  },
  {
   "repo": "wpsec/ARTEX-Pro",
@@ -884,11 +960,11 @@
   "url": "https://github.com/wpsec/ARTEX-Pro",
   "desc": "AI 自主渗透测试系统｜百度“agent+”攻防挑战赛冠军项目  作者已停止维护该项目，仓库保存了最后一版源码，分支为：artex-native-backup。Docker 镜像与预编译 Release 均已不可用，请按照下方说明从源码在本地构建容器并运行，当前为ARTEX-Pro迭代版。",
   "stars": 14,
-  "forks": 21,
+  "forks": 23,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-08",
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "topics": [],
   "kind": "fork",
   "tier": 2,
@@ -896,9 +972,7 @@
    "改名",
    "存档"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0037"
+  "note": null
  },
  {
   "repo": "imxv/ARTEXX",
@@ -907,7 +981,7 @@
   "url": "https://github.com/imxv/ARTEXX",
   "desc": "Autumn-27/ARTEX",
   "stars": 12,
-  "forks": 629,
+  "forks": 627,
   "lang": null,
   "license": "AGPL-3.0",
   "created": "2026-10-09",
@@ -918,9 +992,7 @@
   "tags": [
    "改名"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0038"
+  "note": null
  },
  {
   "repo": "3185263343/ARTEX",
@@ -929,7 +1001,7 @@
   "url": "https://github.com/3185263343/ARTEX",
   "desc": "AI 自主渗透测试系统（mhtsec/ARTEX 备份）| Go + Next.js",
   "stars": 11,
-  "forks": 15,
+  "forks": 16,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-08",
@@ -940,9 +1012,7 @@
   "tags": [
    "备份"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0039"
+  "note": null
  },
  {
   "repo": "RC-CHN/ARTEX",
@@ -962,9 +1032,7 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0040"
+  "note": null
  },
  {
   "repo": "D4rk-3ch0/artex-c",
@@ -993,9 +1061,29 @@
    "蜜罐识别",
    "RoE"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0041"
+  "note": null
+ },
+ {
+  "repo": "mshzy/hysec-artex",
+  "name": "hysec-artex",
+  "owner": "mshzy",
+  "url": "https://github.com/mshzy/hysec-artex",
+  "desc": "hysec artex — ARTEX/Pojun 二开：七组侧边栏 + 内网作战 + WebShell 管理 + 武器库",
+  "stars": 10,
+  "forks": 6,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-15",
+  "updated": "2026-11-15",
+  "topics": [],
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "WebShell",
+   "武器库"
+  ],
+  "note": "七组侧边栏 + WebShell 管理 + 武器库。"
  },
  {
   "repo": "digital-pickles/NiuDao",
@@ -1016,33 +1104,7 @@
    "改名",
    "工具集成"
   ],
-  "note": "改名 NiuDao，接 Yaklang。",
-  "attribution": true,
-  "id": "ARTEX-2K-0042"
- },
- {
-  "repo": "mshzy/hysec-artex",
-  "name": "hysec-artex",
-  "owner": "mshzy",
-  "url": "https://github.com/mshzy/hysec-artex",
-  "desc": "hysec artex — ARTEX/Pojun 二开：七组侧边栏 + 内网作战 + WebShell 管理 + 武器库",
-  "stars": 9,
-  "forks": 6,
-  "lang": "Go",
-  "license": "AGPL-3.0",
-  "created": "2026-11-15",
-  "updated": "2026-11-15",
-  "topics": [],
-  "kind": "fork",
-  "tier": 4,
-  "tags": [
-   "改名",
-   "WebShell",
-   "武器库"
-  ],
-  "note": "七组侧边栏 + WebShell 管理 + 武器库。",
-  "attribution": true,
-  "id": "ARTEX-2K-0043"
+  "note": "改名 NiuDao，接 Yaklang。"
  },
  {
   "repo": "snowfishgo/artex-en",
@@ -1062,9 +1124,7 @@
   "tags": [
    "英文"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0044"
+  "note": null
  },
  {
   "repo": "ztx888/ARTEX",
@@ -1084,9 +1144,7 @@
   "tags": [
    "备份"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0045"
+  "note": null
  },
  {
   "repo": "acheong08/artex",
@@ -1106,9 +1164,32 @@
   "tags": [
    "海外镜像"
   ],
-  "note": "被用于对韩攻击的工具镜像。",
-  "attribution": false,
-  "id": "ARTEX-2K-0046"
+  "note": "被用于对韩攻击的工具镜像。"
+ },
+ {
+  "repo": "Neetx/ai-security-research-radar",
+  "name": "ai-security-research-radar",
+  "owner": "Neetx",
+  "url": "https://github.com/Neetx/ai-security-research-radar",
+  "desc": "AI Security Research Radar — AI for security and security for AI",
+  "stars": 8,
+  "forks": 3,
+  "lang": null,
+  "license": null,
+  "created": "2026-06-23",
+  "updated": "2026-11-21",
+  "topics": [
+   "agent-memory",
+   "ai",
+   "ai-agent",
+   "ai-agents",
+   "ai-jailbreak",
+   "ai-memory"
+  ],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "TATHPE/ARTEX-Endfield",
@@ -1129,9 +1210,54 @@
    "主题",
    "游戏皮肤"
   ],
-  "note": "整套换成《明日方舟：终末地》皮肤。",
-  "attribution": false,
-  "id": "ARTEX-2K-0047"
+  "note": "整套换成《明日方舟：终末地》皮肤。"
+ },
+ {
+  "repo": "Error336070/ARTEX",
+  "name": "ARTEX",
+  "owner": "Error336070",
+  "url": "https://github.com/Error336070/ARTEX",
+  "desc": "The ARTEX agentic penetration testing framework, ported to English with extra modifications planned for further development of the tool to improve performance & utility",
+  "stars": 7,
+  "forks": 5,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-10-11",
+  "updated": "2026-10-13",
+  "topics": [],
+  "kind": "fork",
+  "tier": 2,
+  "tags": [
+   "英文"
+  ],
+  "note": null
+ },
+ {
+  "repo": "hmruu/ARTEX-Magisk",
+  "name": "ARTEX-Magisk",
+  "owner": "hmruu",
+  "url": "https://github.com/hmruu/ARTEX-Magisk",
+  "desc": "一个在手机运行ARTEX的方案",
+  "stars": 7,
+  "forks": 0,
+  "lang": "Shell",
+  "license": "MIT",
+  "created": "2026-10-20",
+  "updated": "2026-10-21",
+  "topics": [
+   "android",
+   "arm64",
+   "artex",
+   "debian",
+   "magisk",
+   "magisk-module"
+  ],
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "Android"
+  ],
+  "note": null
  },
  {
   "repo": "jacklilyhello/ARTEX",
@@ -1151,9 +1277,27 @@
   "tags": [
    "源码备份"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0048"
+  "note": null
+ },
+ {
+  "repo": "reckless-huang/ARTEX",
+  "name": "ARTEX",
+  "owner": "reckless-huang",
+  "url": "https://github.com/reckless-huang/ARTEX",
+  "desc": "AI 自主渗透测试系统",
+  "stars": 7,
+  "forks": 991,
+  "lang": null,
+  "license": null,
+  "created": "2026-07-28",
+  "updated": "2026-07-26",
+  "topics": [],
+  "kind": "mirror",
+  "tier": 0,
+  "tags": [
+   "备份"
+  ],
+  "note": null
  },
  {
   "repo": "therustymate/ARTXploit",
@@ -1181,82 +1325,7 @@
    "漏洞利用",
    "Fail-Open 认证"
   ],
-  "note": "公开 ARTEX 预认证 RCE。",
-  "attribution": false,
-  "id": "ARTEX-2K-0049"
- },
- {
-  "repo": "Error336070/ARTEX",
-  "name": "ARTEX",
-  "owner": "Error336070",
-  "url": "https://github.com/Error336070/ARTEX",
-  "desc": "The ARTEX agentic penetration testing framework, ported to English with extra modifications planned for further development of the tool to improve performance & utility",
-  "stars": 6,
-  "forks": 5,
-  "lang": "Go",
-  "license": "AGPL-3.0",
-  "created": "2026-10-11",
-  "updated": "2026-10-13",
-  "topics": [],
-  "kind": "fork",
-  "tier": 2,
-  "tags": [
-   "英文"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0050"
- },
- {
-  "repo": "hmruu/ARTEX-Magisk",
-  "name": "ARTEX-Magisk",
-  "owner": "hmruu",
-  "url": "https://github.com/hmruu/ARTEX-Magisk",
-  "desc": "一个在手机运行ARTEX的方案",
-  "stars": 6,
-  "forks": 0,
-  "lang": "Shell",
-  "license": "MIT",
-  "created": "2026-10-20",
-  "updated": "2026-10-21",
-  "topics": [
-   "android",
-   "arm64",
-   "artex",
-   "debian",
-   "magisk",
-   "magisk-module"
-  ],
-  "kind": "tool",
-  "tier": 0,
-  "tags": [
-   "Android"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0051"
- },
- {
-  "repo": "reckless-huang/ARTEX",
-  "name": "ARTEX",
-  "owner": "reckless-huang",
-  "url": "https://github.com/reckless-huang/ARTEX",
-  "desc": "AI 自主渗透测试系统",
-  "stars": 6,
-  "forks": 989,
-  "lang": null,
-  "license": null,
-  "created": "2026-07-28",
-  "updated": "2026-07-26",
-  "topics": [],
-  "kind": "mirror",
-  "tier": 0,
-  "tags": [
-   "备份"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0052"
+  "note": "公开 ARTEX 预认证 RCE。"
  },
  {
   "repo": "ating2634-boop/ARTEX-0.4.1-research",
@@ -1276,9 +1345,7 @@
   "tags": [
    "版本研究"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0053"
+  "note": null
  },
  {
   "repo": "bear20252026/ARTEX-release",
@@ -1298,9 +1365,7 @@
   "tags": [
    "预编译产物"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0054"
+  "note": null
  },
  {
   "repo": "MoLeft/ARTEX",
@@ -1320,9 +1385,25 @@
   "tags": [
    "镜像"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0055"
+  "note": null
+ },
+ {
+  "repo": "renaesop/ARTEX",
+  "name": "ARTEX",
+  "owner": "renaesop",
+  "url": "https://github.com/renaesop/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 5,
+  "forks": 1,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-02",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "richard1230/artex-backup",
@@ -1343,9 +1424,7 @@
    "离线备份",
    "v0.3.14"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0056"
+  "note": null
  },
  {
   "repo": "Y0neQnine/hawkeye",
@@ -1367,9 +1446,7 @@
    "能力削减",
    "资产监控"
   ],
-  "note": "唯一一版主动删掉攻击能力的二开。",
-  "attribution": true,
-  "id": "ARTEX-2K-0057"
+  "note": "唯一一版主动删掉攻击能力的二开。"
  },
  {
   "repo": "ThanatosXingYu/BRTEX",
@@ -1390,9 +1467,52 @@
    "改名",
    "魔改"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0058"
+  "note": null
+ },
+ {
+  "repo": "webspoilt/bounty-hunter-",
+  "name": "bounty-hunter-",
+  "owner": "webspoilt",
+  "url": "https://github.com/webspoilt/bounty-hunter-",
+  "desc": "Scope-gated bug-bounty pipeline for HackerOne: passive recon, two-role authz/IDOR checks, redacted evidence, H1-ready reports, human approval queue. Local Ollama + cbh + ARTEX wiring; nothing auto-submits.",
+  "stars": 4,
+  "forks": 1,
+  "lang": "Python",
+  "license": "MIT",
+  "created": "2026-10-23",
+  "updated": "2026-11-17",
+  "topics": [
+   "access-control",
+   "authorization-testing",
+   "bug-bounty",
+   "hackerone",
+   "httpx",
+   "idor"
+  ],
+  "kind": "tool",
+  "tier": 0,
+  "tags": [
+   "漏洞赏金"
+  ],
+  "note": null
+ },
+ {
+  "repo": "444Nazky/ARTEX",
+  "name": "ARTEX",
+  "owner": "444Nazky",
+  "url": "https://github.com/444Nazky/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 3,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "Ariember/ARTEX",
@@ -1412,9 +1532,7 @@
   "tags": [
    "备份"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0059"
+  "note": null
  },
  {
   "repo": "CODAME/artex-open",
@@ -1427,16 +1545,14 @@
   "lang": "TypeScript",
   "license": null,
   "created": "2026-03-22",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "topics": [],
   "kind": "mirror",
   "tier": 0,
   "tags": [
    "开放副本"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0060"
+  "note": null
  },
  {
   "repo": "dunvu0/ARTEX",
@@ -1456,9 +1572,7 @@
   "tags": [
    "英文"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0061"
+  "note": null
  },
  {
   "repo": "froiibn/ARTEX-Desktop",
@@ -1478,9 +1592,7 @@
   "tags": [
    "桌面端"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0062"
+  "note": null
  },
  {
   "repo": "hater-us/Artex-update",
@@ -1501,31 +1613,46 @@
    "架构改造",
    "Agent"
   ],
-  "note": "自述“黑板架构的自动化渗透 Agent”。",
-  "attribution": false,
-  "id": "ARTEX-2K-0063"
+  "note": "自述“黑板架构的自动化渗透 Agent”。"
  },
  {
-  "repo": "ThreatDefence/artex-detections",
-  "name": "artex-detections",
-  "owner": "ThreatDefence",
-  "url": "https://github.com/ThreatDefence/artex-detections",
-  "desc": "",
+  "repo": "jinniu-beep/ARTEXX-iOS",
+  "name": "ARTEXX-iOS",
+  "owner": "jinniu-beep",
+  "url": "https://github.com/jinniu-beep/ARTEXX-iOS",
+  "desc": "ARTEXX iOS 客户端：内置 319 条渗透技能 + 20 万条 CVE 知识库",
   "stars": 3,
   "forks": 1,
-  "lang": "Python",
-  "license": "MIT",
-  "created": "2026-11-20",
+  "lang": "Go",
+  "license": null,
+  "created": "2026-11-18",
   "updated": "2026-11-20",
   "topics": [],
-  "kind": "defense",
-  "tier": 0,
+  "kind": "fork",
+  "tier": 3,
   "tags": [
-   "检测规则"
+   "iOS",
+   "技能库"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0064"
+  "note": null
+ },
+ {
+  "repo": "maqibg/Stargazer",
+  "name": "Stargazer",
+  "owner": "maqibg",
+  "url": "https://github.com/maqibg/Stargazer",
+  "desc": "",
+  "stars": 3,
+  "forks": 0,
+  "lang": null,
+  "license": null,
+  "created": "2025-02-15",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "wangjingtiankl/ARTEX",
@@ -1545,38 +1672,7 @@
   "tags": [
    "备份"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0065"
- },
- {
-  "repo": "webspoilt/bounty-hunter-",
-  "name": "bounty-hunter-",
-  "owner": "webspoilt",
-  "url": "https://github.com/webspoilt/bounty-hunter-",
-  "desc": "Scope-gated bug-bounty pipeline for HackerOne: passive recon, two-role authz/IDOR checks, redacted evidence, H1-ready reports, human approval queue. Local Ollama + cbh + ARTEX wiring; nothing auto-submits.",
-  "stars": 3,
-  "forks": 1,
-  "lang": "Python",
-  "license": "MIT",
-  "created": "2026-10-23",
-  "updated": "2026-11-17",
-  "topics": [
-   "access-control",
-   "authorization-testing",
-   "bug-bounty",
-   "hackerone",
-   "httpx",
-   "idor"
-  ],
-  "kind": "tool",
-  "tier": 0,
-  "tags": [
-   "漏洞赏金"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0066"
+  "note": null
  },
  {
   "repo": "6ccg/ARTEX",
@@ -1596,9 +1692,27 @@
   "tags": [
    "镜像"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0067"
+  "note": null
+ },
+ {
+  "repo": "AdverserialAI/artex-defense",
+  "name": "artex-defense",
+  "owner": "AdverserialAI",
+  "url": "https://github.com/AdverserialAI/artex-defense",
+  "desc": "Defensive vulnerability remediation and patch verification built on ARTEX",
+  "stars": 2,
+  "forks": 1,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-15",
+  "updated": "2026-11-18",
+  "topics": [],
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "修复验证"
+  ],
+  "note": null
  },
  {
   "repo": "AFOGSHEEP/artex-zh",
@@ -1618,9 +1732,43 @@
   "tags": [
    "中文发行"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0068"
+  "note": null
+ },
+ {
+  "repo": "AG-Sec/artex",
+  "name": "artex",
+  "owner": "AG-Sec",
+  "url": "https://github.com/AG-Sec/artex",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 2,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-18",
+  "updated": "2026-11-18",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "aplatogg/ARTEX",
+  "name": "ARTEX",
+  "owner": "aplatogg",
+  "url": "https://github.com/aplatogg/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 2,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-18",
+  "updated": "2026-11-18",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "br0ny4/artex-redev",
@@ -1649,9 +1797,7 @@
    "逆向",
    "蓝队"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0069"
+  "note": null
  },
  {
   "repo": "chrgu000/artex",
@@ -1671,31 +1817,25 @@
   "tags": [
    "中文还原"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0070"
+  "note": null
  },
  {
-  "repo": "Clever-rain/dsh-artex-plugin",
-  "name": "dsh-artex-plugin",
-  "owner": "Clever-rain",
-  "url": "https://github.com/Clever-rain/dsh-artex-plugin",
-  "desc": "ARTEX-style dual-graph planner/worker orchestration for DeepSeek Harness (DSH plugin)",
+  "repo": "darthsalad465/Moundshroud",
+  "name": "Moundshroud",
+  "owner": "darthsalad465",
+  "url": "https://github.com/darthsalad465/Moundshroud",
+  "desc": "",
   "stars": 2,
-  "forks": 1,
+  "forks": 0,
   "lang": "JavaScript",
   "license": "MIT",
-  "created": "2026-10-21",
-  "updated": "2026-11-06",
+  "created": "2026-10-23",
+  "updated": "2026-11-21",
   "topics": [],
-  "kind": "tool",
-  "tier": 0,
-  "tags": [
-   "DSH 插件"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0071"
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "fanfan20001206/ARTEX",
@@ -1715,9 +1855,7 @@
   "tags": [
    "备份"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0072"
+  "note": null
  },
  {
   "repo": "j5tv9nfzhn-hue/ARTEX",
@@ -1737,9 +1875,7 @@
   "tags": [
    "构建流水线"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0073"
+  "note": null
  },
  {
   "repo": "j5tv9nfzhn-hue/artex-harness",
@@ -1752,7 +1888,7 @@
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-11-14",
-  "updated": "2026-11-17",
+  "updated": "2026-11-21",
   "topics": [],
   "kind": "fork",
   "tier": 4,
@@ -1760,32 +1896,43 @@
    "改名",
    "Harness"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0074"
+  "note": null
  },
  {
-  "repo": "jinniu-beep/ARTEXX-iOS",
-  "name": "ARTEXX-iOS",
-  "owner": "jinniu-beep",
-  "url": "https://github.com/jinniu-beep/ARTEXX-iOS",
-  "desc": "ARTEXX iOS 客户端：内置 319 条渗透技能 + 20 万条 CVE 知识库",
+  "repo": "johnnyxmas/ARTEX",
+  "name": "ARTEX",
+  "owner": "johnnyxmas",
+  "url": "https://github.com/johnnyxmas/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
   "stars": 2,
   "forks": 1,
-  "lang": "Go",
-  "license": null,
-  "created": "2026-11-18",
-  "updated": "2026-11-20",
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-17",
+  "updated": "2026-11-17",
   "topics": [],
   "kind": "fork",
-  "tier": 3,
-  "tags": [
-   "iOS",
-   "技能库"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0075"
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "kj299/siem_fun",
+  "name": "siem_fun",
+  "owner": "kj299",
+  "url": "https://github.com/kj299/siem_fun",
+  "desc": "queries to run in your siem",
+  "stars": 2,
+  "forks": 0,
+  "lang": "Python",
+  "license": null,
+  "created": "2026-04-23",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "konanguyen/ARTEX",
@@ -1812,9 +1959,7 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0076"
+  "note": null
  },
  {
   "repo": "luojiaping/ARTEX",
@@ -1834,9 +1979,7 @@
   "tags": [
    "备份"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0077"
+  "note": null
  },
  {
   "repo": "luoxi0615/ARTEX",
@@ -1856,9 +1999,25 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0078"
+  "note": null
+ },
+ {
+  "repo": "mkilijanek/ARTEX",
+  "name": "ARTEX",
+  "owner": "mkilijanek",
+  "url": "https://github.com/mkilijanek/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 2,
+  "forks": 1,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-04",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "nina27owo/ARTEX-Controller",
@@ -1878,9 +2037,104 @@
   "tags": [
    "多机控制台"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0079"
+  "note": null
+ },
+ {
+  "repo": "philocyber/counterweight",
+  "name": "counterweight",
+  "owner": "philocyber",
+  "url": "https://github.com/philocyber/counterweight",
+  "desc": "The counterweight to autonomous attacks. Self-hosted AI security testing that gives every defender an army of agents, with a human in command.",
+  "stars": 2,
+  "forks": 1,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-12",
+  "updated": "2026-11-21",
+  "topics": [
+   "ai-agents",
+   "appsec",
+   "code-review",
+   "golang",
+   "llm",
+   "nextjs"
+  ],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "ProjectZeroDays/ARTEX",
+  "name": "ARTEX",
+  "owner": "ProjectZeroDays",
+  "url": "https://github.com/ProjectZeroDays/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 2,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-14",
+  "updated": "2026-11-14",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "psibot/ARTEX",
+  "name": "ARTEX",
+  "owner": "psibot",
+  "url": "https://github.com/psibot/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 2,
+  "forks": 1,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-18",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "redrix-dev/ARTEX-en",
+  "name": "ARTEX-en",
+  "owner": "redrix-dev",
+  "url": "https://github.com/redrix-dev/ARTEX-en",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 2,
+  "forks": 1,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-16",
+  "updated": "2026-11-15",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "syrex1013/ARTEX",
+  "name": "ARTEX",
+  "owner": "syrex1013",
+  "url": "https://github.com/syrex1013/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 2,
+  "forks": 1,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-11",
+  "updated": "2026-11-13",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "thalysonz/ARTEX",
@@ -1900,9 +2154,7 @@
   "tags": [
    "源码备份"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0080"
+  "note": null
  },
  {
   "repo": "Tomatamatom1/artex-ko",
@@ -1922,9 +2174,7 @@
   "tags": [
    "韩文"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0081"
+  "note": null
  },
  {
   "repo": "vv-get-ti/ARTEX",
@@ -1944,9 +2194,7 @@
   "tags": [
    "私有副本"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0082"
+  "note": null
  },
  {
   "repo": "xsywl945/ARTEX-mirror",
@@ -1966,9 +2214,7 @@
   "tags": [
    "镜像"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0083"
+  "note": null
  },
  {
   "repo": "xsywl945/artex-ymh-mirror",
@@ -1988,9 +2234,7 @@
   "tags": [
    "镜像"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0084"
+  "note": null
  },
  {
   "repo": "Y0neQnine/ARTEX",
@@ -2010,9 +2254,43 @@
   "tags": [
    "二开"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0085"
+  "note": null
+ },
+ {
+  "repo": "0x7377/agentic-ai-offensive-security-lab",
+  "name": "agentic-ai-offensive-security-lab",
+  "owner": "0x7377",
+  "url": "https://github.com/0x7377/agentic-ai-offensive-security-lab",
+  "desc": "Public-sector training kit for Agentic AI-assisted offensive security with OpenCode, ARTEX, Skills, MCP, and Docker labs",
+  "stars": 1,
+  "forks": 0,
+  "lang": "Go",
+  "license": "Apache-2.0",
+  "created": "2026-11-15",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "a32077/ARTEX--BaaRai",
+  "name": "ARTEX--BaaRai",
+  "owner": "a32077",
+  "url": "https://github.com/a32077/ARTEX--BaaRai",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-15",
+  "updated": "2026-11-15",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "AdverserialAI/artex-attack",
@@ -2033,31 +2311,173 @@
    "英文UI",
    "机密计算"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0086"
+  "note": null
  },
  {
-  "repo": "AdverserialAI/artex-defense",
-  "name": "artex-defense",
-  "owner": "AdverserialAI",
-  "url": "https://github.com/AdverserialAI/artex-defense",
-  "desc": "Defensive vulnerability remediation and patch verification built on ARTEX",
+  "repo": "aimannly/ARTEX",
+  "name": "ARTEX",
+  "owner": "aimannly",
+  "url": "https://github.com/aimannly/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-14",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Alexander4731/Vestrail",
+  "name": "Vestrail",
+  "owner": "Alexander4731",
+  "url": "https://github.com/Alexander4731/Vestrail",
+  "desc": "ARTEX二开增强版-优化敏感操作拦截，增加一键getshell、长链路后渗透、内网横向、逻辑漏洞增强、卫星等IOT协议测试适配等...",
   "stars": 1,
   "forks": 0,
   "lang": "Go",
   "license": "AGPL-3.0",
-  "created": "2026-11-15",
+  "created": "2026-10-26",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 4,
+  "tags": [
+   "改名",
+   "增强",
+   "IoT"
+  ],
+  "note": "改名 Vestrail，强调“长链路后渗透”。"
+ },
+ {
+  "repo": "AlfonsoVieitez/ARTEX",
+  "name": "ARTEX",
+  "owner": "AlfonsoVieitez",
+  "url": "https://github.com/AlfonsoVieitez/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-18",
   "updated": "2026-11-18",
   "topics": [],
-  "kind": "defense",
-  "tier": 0,
-  "tags": [
-   "修复验证"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0087"
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "alifestone/Awesome_AI_list",
+  "name": "Awesome_AI_list",
+  "owner": "alifestone",
+  "url": "https://github.com/alifestone/Awesome_AI_list",
+  "desc": "Find All What You Want: 35B large model stuffed into iPhone, one sentence to generate 3D world, AI automatic filming, AI hacker penetration test, robot brain...",
+  "stars": 1,
+  "forks": 1,
+  "lang": "Shell",
+  "license": "MIT",
+  "created": "2026-10-12",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "An7KB/ARTEX",
+  "name": "ARTEX",
+  "owner": "An7KB",
+  "url": "https://github.com/An7KB/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-19",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "antonyguedes/ARTEX",
+  "name": "ARTEX",
+  "owner": "antonyguedes",
+  "url": "https://github.com/antonyguedes/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-17",
+  "updated": "2026-11-17",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "austinsonger/ARTEX",
+  "name": "ARTEX",
+  "owner": "austinsonger",
+  "url": "https://github.com/austinsonger/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-16",
+  "updated": "2026-11-15",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Ayush-2703/ARTEX",
+  "name": "ARTEX",
+  "owner": "Ayush-2703",
+  "url": "https://github.com/Ayush-2703/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-19",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "balayan7988/artex",
+  "name": "artex",
+  "owner": "balayan7988",
+  "url": "https://github.com/balayan7988/artex",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "beeyeas/artex-defense-factory",
@@ -2077,9 +2497,7 @@
   "tags": [
    "威胁狩猎"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0088"
+  "note": null
  },
  {
   "repo": "Braedach/ARTEX-MUTANT",
@@ -2092,7 +2510,7 @@
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-10-31",
-  "updated": "2026-11-19",
+  "updated": "2026-11-21",
   "topics": [],
   "kind": "fork",
   "tier": 4,
@@ -2100,9 +2518,79 @@
    "主动分叉",
    "加固"
   ],
-  "note": "自述“刻意与上游分叉，不复跟上游”。",
-  "attribution": true,
-  "id": "ARTEX-2K-0089"
+  "note": "自述“刻意与上游分叉，不复跟上游”。"
+ },
+ {
+  "repo": "cooksey14/ARTEX",
+  "name": "ARTEX",
+  "owner": "cooksey14",
+  "url": "https://github.com/cooksey14/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-17",
+  "updated": "2026-11-17",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "cratkin0133-sys/ARTEX",
+  "name": "ARTEX",
+  "owner": "cratkin0133-sys",
+  "url": "https://github.com/cratkin0133-sys/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-19",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "cyberforge-sec/ARTEX",
+  "name": "ARTEX",
+  "owner": "cyberforge-sec",
+  "url": "https://github.com/cyberforge-sec/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-17",
+  "updated": "2026-11-17",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "daviditse117/ARTEX",
+  "name": "ARTEX",
+  "owner": "daviditse117",
+  "url": "https://github.com/daviditse117/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-18",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "detreaba/artex-community-skills",
@@ -2115,7 +2603,7 @@
   "lang": "Python",
   "license": "AGPL-3.0",
   "created": "2026-11-19",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "topics": [
    "artex",
    "cve",
@@ -2128,9 +2616,196 @@
   "tags": [
    "技能包"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0090"
+  "note": null
+ },
+ {
+  "repo": "Dextan-solutions/ARTEX",
+  "name": "ARTEX",
+  "owner": "Dextan-solutions",
+  "url": "https://github.com/Dextan-solutions/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Domren/ARTEX-2",
+  "name": "ARTEX-2",
+  "owner": "Domren",
+  "url": "https://github.com/Domren/ARTEX-2",
+  "desc": "Autumn-27/ARTEX 二开",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-09",
+  "updated": "2026-10-09",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "dudu360/ARTEX1",
+  "name": "ARTEX1",
+  "owner": "dudu360",
+  "url": "https://github.com/dudu360/ARTEX1",
+  "desc": "Autumn-27/ARTEX 自支持版本",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-29",
+  "updated": "2026-10-29",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Ella-Bakshi/ai-attacker-threat-research",
+  "name": "ai-attacker-threat-research",
+  "owner": "Ella-Bakshi",
+  "url": "https://github.com/Ella-Bakshi/ai-attacker-threat-research",
+  "desc": "AI attacker threat research: sourced IOCs, independently derived observables, detection rules, and evidence-based India targeting context.",
+  "stars": 1,
+  "forks": 0,
+  "lang": "HTML",
+  "license": null,
+  "created": "2026-11-10",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "endoflineservice/ARTEX",
+  "name": "ARTEX",
+  "owner": "endoflineservice",
+  "url": "https://github.com/endoflineservice/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-17",
+  "updated": "2026-11-17",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "f092656755263-collab/ARTEX",
+  "name": "ARTEX",
+  "owner": "f092656755263-collab",
+  "url": "https://github.com/f092656755263-collab/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-15",
+  "updated": "2026-11-14",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "fboiero/artex-caso-de-estudio",
+  "name": "artex-caso-de-estudio",
+  "owner": "fboiero",
+  "url": "https://github.com/fboiero/artex-caso-de-estudio",
+  "desc": "Caso de estudio, auditoría de código y detección de ARTEX (pentest autónomo con IA) — material de cátedra UTN FRVM",
+  "stars": 1,
+  "forks": 0,
+  "lang": "Python",
+  "license": "NOASSERTION",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [
+   "ai-security",
+   "detection-engineering",
+   "education",
+   "pentest",
+   "security",
+   "sigma"
+  ],
+  "kind": "defense",
+  "tier": 0,
+  "tags": [
+   "教学案例"
+  ],
+  "note": null
+ },
+ {
+  "repo": "gruckion/awesome-stars",
+  "name": "awesome-stars",
+  "owner": "gruckion",
+  "url": "https://github.com/gruckion/awesome-stars",
+  "desc": "",
+  "stars": 1,
+  "forks": 1,
+  "lang": null,
+  "license": "CC0-1.0",
+  "created": "2025-03-04",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "gthubtom1/ARTEX",
+  "name": "ARTEX",
+  "owner": "gthubtom1",
+  "url": "https://github.com/gthubtom1/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 1,
+  "forks": 2,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-10-22",
+  "updated": "2026-10-25",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "HappyStupidChild/HappyStupidChild",
+  "name": "HappyStupidChild",
+  "owner": "HappyStupidChild",
+  "url": "https://github.com/HappyStupidChild/HappyStupidChild",
+  "desc": "My GitHub profile — open-source explorer and curious tinkerer.",
+  "stars": 1,
+  "forks": 0,
+  "lang": "JavaScript",
+  "license": null,
+  "created": "2026-08-14",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "hexsen929/ARTEX",
@@ -2150,9 +2825,122 @@
   "tags": [
    "备份"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0091"
+  "note": null
+ },
+ {
+  "repo": "houssam-bel/ARTEX",
+  "name": "ARTEX",
+  "owner": "houssam-bel",
+  "url": "https://github.com/houssam-bel/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-16",
+  "updated": "2026-11-16",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "husamabdel/ARTEX",
+  "name": "ARTEX",
+  "owner": "husamabdel",
+  "url": "https://github.com/husamabdel/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-14",
+  "updated": "2026-11-14",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "its0din-ai/bmail",
+  "name": "bmail",
+  "owner": "its0din-ai",
+  "url": "https://github.com/its0din-ai/bmail",
+  "desc": "bmail, give your Agents an email; Prepared for Agents at ARTEX Custom Tools",
+  "stars": 1,
+  "forks": 0,
+  "lang": "TypeScript",
+  "license": null,
+  "created": "2026-11-16",
+  "updated": "2026-11-21",
+  "topics": [
+   "artex",
+   "bug-bounty",
+   "bug-bounty-automation",
+   "cloudflare-workers"
+  ],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "jsmitherson/ARTEX-English",
+  "name": "ARTEX-English",
+  "owner": "jsmitherson",
+  "url": "https://github.com/jsmitherson/ARTEX-English",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-27",
+  "updated": "2026-10-25",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "jw5812018/ARTEX-",
+  "name": "ARTEX-",
+  "owner": "jw5812018",
+  "url": "https://github.com/jw5812018/ARTEX-",
+  "desc": "ARTEX 自主渗透测试系统的持续维护版（Go 后端 + Next.js 前端），保留原项目历史，含仪表盘、任务执行、资产和发现管理。",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-02",
+  "updated": "2026-11-01",
+  "topics": [
+   "penetration-testing"
+  ],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Kedhareswer/ARTEX",
+  "name": "ARTEX",
+  "owner": "Kedhareswer",
+  "url": "https://github.com/Kedhareswer/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-19",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "lazycat-contrib/artex-lzcapp",
@@ -2165,16 +2953,50 @@
   "lang": null,
   "license": null,
   "created": "2026-10-15",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "topics": [],
   "kind": "tool",
   "tier": 0,
   "tags": [
    "懒猫微服"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0092"
+  "note": null
+ },
+ {
+  "repo": "lionelsabdani36-ai/ARTEX",
+  "name": "ARTEX",
+  "owner": "lionelsabdani36-ai",
+  "url": "https://github.com/lionelsabdani36-ai/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-16",
+  "updated": "2026-11-16",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "llyufenggotest/ARTEX",
+  "name": "ARTEX",
+  "owner": "llyufenggotest",
+  "url": "https://github.com/llyufenggotest/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 1,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-14",
+  "updated": "2026-11-14",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "Lusitaniae/ARTEX",
@@ -2183,7 +3005,7 @@
   "url": "https://github.com/Lusitaniae/ARTEX",
   "desc": "ARTEX hardened deployment build (fork of BaaRai/ARTEX at a908e1e + 10 build/hardening commits)",
   "stars": 1,
-  "forks": 0,
+  "forks": 1,
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-11-14",
@@ -2194,9 +3016,223 @@
   "tags": [
    "加固构建"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0093"
+  "note": null
+ },
+ {
+  "repo": "mahmoud-mohasseb/ARTEX",
+  "name": "ARTEX",
+  "owner": "mahmoud-mohasseb",
+  "url": "https://github.com/mahmoud-mohasseb/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "mdbilal1988/ARTEX",
+  "name": "ARTEX",
+  "owner": "mdbilal1988",
+  "url": "https://github.com/mdbilal1988/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-18",
+  "updated": "2026-11-18",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "minecrc411/ARTEX",
+  "name": "ARTEX",
+  "owner": "minecrc411",
+  "url": "https://github.com/minecrc411/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "molako2/ARTEX",
+  "name": "ARTEX",
+  "owner": "molako2",
+  "url": "https://github.com/molako2/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-18",
+  "updated": "2026-11-18",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "mpapadopoullos/starred",
+  "name": "starred",
+  "owner": "mpapadopoullos",
+  "url": "https://github.com/mpapadopoullos/starred",
+  "desc": "My starred repos",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "CC0-1.0",
+  "created": "2025-04-05",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "mrkeyoor/honest-awesome",
+  "name": "honest-awesome",
+  "owner": "mrkeyoor",
+  "url": "https://github.com/mrkeyoor/honest-awesome",
+  "desc": "The awesome list that tells you what NOT to install. 320+ open-source tools scored on setup, docs, community & maturity — each with an honest \"skip it if\" warning. Updated daily.",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": null,
+  "created": "2026-08-03",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "MY0723/ARTEX",
+  "name": "ARTEX",
+  "owner": "MY0723",
+  "url": "https://github.com/MY0723/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-28",
+  "updated": "2026-11-03",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "mysolaceai/ARTEX",
+  "name": "ARTEX",
+  "owner": "mysolaceai",
+  "url": "https://github.com/mysolaceai/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-15",
+  "updated": "2026-11-15",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "namsu25/ARTEX",
+  "name": "ARTEX",
+  "owner": "namsu25",
+  "url": "https://github.com/namsu25/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-15",
+  "updated": "2026-11-14",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "olebris/ARTEX",
+  "name": "ARTEX",
+  "owner": "olebris",
+  "url": "https://github.com/olebris/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-16",
+  "updated": "2026-11-16",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "pachelbel23/ARTEX",
+  "name": "ARTEX",
+  "owner": "pachelbel23",
+  "url": "https://github.com/pachelbel23/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 1,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-07",
+  "updated": "2026-11-16",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "pcoughlin/ARTEX",
+  "name": "ARTEX",
+  "owner": "pcoughlin",
+  "url": "https://github.com/pcoughlin/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-18",
+  "updated": "2026-11-18",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "pruent-labs/ARTEX",
@@ -2216,9 +3252,171 @@
   "tags": [
    "镜像审计"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0094"
+  "note": null
+ },
+ {
+  "repo": "q-qp-p/BaaRai-ARTEX",
+  "name": "BaaRai-ARTEX",
+  "owner": "q-qp-p",
+  "url": "https://github.com/q-qp-p/BaaRai-ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-09",
+  "updated": "2026-11-08",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "q-qp-p/ruoji6-ARTEX",
+  "name": "ruoji6-ARTEX",
+  "owner": "q-qp-p",
+  "url": "https://github.com/q-qp-p/ruoji6-ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-09",
+  "updated": "2026-11-05",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "rewen1/ARTEXv0.3.23",
+  "name": "ARTEXv0.3.23",
+  "owner": "rewen1",
+  "url": "https://github.com/rewen1/ARTEXv0.3.23",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-23",
+  "updated": "2026-10-23",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Robson-pds/ARTEX",
+  "name": "ARTEX",
+  "owner": "Robson-pds",
+  "url": "https://github.com/Robson-pds/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-17",
+  "updated": "2026-11-17",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "ShazaamVycys/threat-actor-intel",
+  "name": "threat-actor-intel",
+  "owner": "ShazaamVycys",
+  "url": "https://github.com/ShazaamVycys/threat-actor-intel",
+  "desc": "",
+  "stars": 1,
+  "forks": 0,
+  "lang": "Python",
+  "license": null,
+  "created": "2026-11-18",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "shenanigo/ARTEX",
+  "name": "ARTEX",
+  "owner": "shenanigo",
+  "url": "https://github.com/shenanigo/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-19",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [
+   "原样"
+  ],
+  "note": null
+ },
+ {
+  "repo": "soabsuk/artex",
+  "name": "artex",
+  "owner": "soabsuk",
+  "url": "https://github.com/soabsuk/artex",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-01",
+  "updated": "2026-10-25",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "ssd12588/ARTEX-ALE",
+  "name": "ARTEX-ALE",
+  "owner": "ssd12588",
+  "url": "https://github.com/ssd12588/ARTEX-ALE",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-31",
+  "updated": "2026-10-31",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "ssls2026/ARTEX",
+  "name": "ARTEX",
+  "owner": "ssls2026",
+  "url": "https://github.com/ssls2026/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-12",
+  "updated": "2026-11-11",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "Star-Ring-1F728/Reverse-Artex",
@@ -2238,9 +3436,115 @@
   "tags": [
    "逆向"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0095"
+  "note": null
+ },
+ {
+  "repo": "sudesh44-ss/ARTEX",
+  "name": "ARTEX",
+  "owner": "sudesh44-ss",
+  "url": "https://github.com/sudesh44-ss/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-29",
+  "updated": "2026-10-25",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Syntriqlabs-Founder/Mr.Z-artex",
+  "name": "Mr.Z-artex",
+  "owner": "Syntriqlabs-Founder",
+  "url": "https://github.com/Syntriqlabs-Founder/Mr.Z-artex",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-18",
+  "updated": "2026-11-18",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "sysplore/ARTEX",
+  "name": "ARTEX",
+  "owner": "sysplore",
+  "url": "https://github.com/sysplore/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-19",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Taha-KNIGHT/ARTEX",
+  "name": "ARTEX",
+  "owner": "Taha-KNIGHT",
+  "url": "https://github.com/Taha-KNIGHT/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-19",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Thek28/ARTEX3",
+  "name": "ARTEX3",
+  "owner": "Thek28",
+  "url": "https://github.com/Thek28/ARTEX3",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-26",
+  "updated": "2026-10-26",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "tpmfb/ARTEX",
+  "name": "ARTEX",
+  "owner": "tpmfb",
+  "url": "https://github.com/tpmfb/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 1,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-12",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "ventz/artex-crimson-wave",
@@ -2267,32 +3571,276 @@
   "tags": [
    "防御侦察"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0096"
+  "note": null
  },
  {
-  "repo": "0hakxx/artex-mobile-ko",
-  "name": "artex-mobile-ko",
-  "owner": "0hakxx",
-  "url": "https://github.com/0hakxx/artex-mobile-ko",
+  "repo": "vladimirvalcourt/ARTEX",
+  "name": "ARTEX",
+  "owner": "vladimirvalcourt",
+  "url": "https://github.com/vladimirvalcourt/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-16",
+  "updated": "2026-11-16",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "WangJianGuo12138/ARTEX",
+  "name": "ARTEX",
+  "owner": "WangJianGuo12138",
+  "url": "https://github.com/WangJianGuo12138/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-23",
+  "updated": "2026-10-23",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "welfo-beo/ARTEX",
+  "name": "ARTEX",
+  "owner": "welfo-beo",
+  "url": "https://github.com/welfo-beo/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-16",
+  "updated": "2026-11-16",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "win4r/ARTEX",
+  "name": "ARTEX",
+  "owner": "win4r",
+  "url": "https://github.com/win4r/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-12",
+  "updated": "2026-11-12",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "wrxxnch/ARTEX",
+  "name": "ARTEX",
+  "owner": "wrxxnch",
+  "url": "https://github.com/wrxxnch/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 1,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-18",
+  "updated": "2026-11-19",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "X3r0Day/ARTEX",
+  "name": "ARTEX",
+  "owner": "X3r0Day",
+  "url": "https://github.com/X3r0Day/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation)",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Yhoanes/antigravity-android-plugins",
+  "name": "antigravity-android-plugins",
+  "owner": "Yhoanes",
+  "url": "https://github.com/Yhoanes/antigravity-android-plugins",
+  "desc": "Official ARM64 Bionic Plugin Marketplace for Google Antigravity Android (by Yhoanes) — AGY Video Studio GPU, Craft Anything + Ghidra 12.1.4, Game Studio 2D/3D, GitHub MCP & Headless Chromium",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": null,
+  "created": "2026-11-12",
+  "updated": "2026-11-21",
+  "topics": [
+   "aarch64",
+   "ai-agents",
+   "android",
+   "antigravity",
+   "antigravity-ide",
+   "arm64"
+  ],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "yushen100/ARTEX-RuoJi6-community",
+  "name": "ARTEX-RuoJi6-community",
+  "owner": "yushen100",
+  "url": "https://github.com/yushen100/ARTEX-RuoJi6-community",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 1,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-21",
+  "updated": "2026-10-21",
+  "topics": [
+   "ai-agents",
+   "cybersecurity",
+   "golang",
+   "penetration-testing"
+  ],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "zou-haisheng/ARTEX",
+  "name": "ARTEX",
+  "owner": "zou-haisheng",
+  "url": "https://github.com/zou-haisheng/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源无限制版本",
+  "stars": 1,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-10-22",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "0ok0/ARTEX2",
+  "name": "ARTEX2",
+  "owner": "0ok0",
+  "url": "https://github.com/0ok0/ARTEX2",
+  "desc": "",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "123caiji/123caiji",
+  "name": "123caiji",
+  "owner": "123caiji",
+  "url": "https://github.com/123caiji/123caiji",
+  "desc": "GitHub profile README with live stats and an auto-generated contribution snake.",
+  "stars": 0,
+  "forks": 0,
+  "lang": "JavaScript",
+  "license": null,
+  "created": "2026-10-29",
+  "updated": "2026-11-21",
+  "topics": [
+   "ai-agent",
+   "deepseek-harness",
+   "profile",
+   "security"
+  ],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "1BBIN-Park/ARTEX-",
+  "name": "ARTEX-",
+  "owner": "1BBIN-Park",
+  "url": "https://github.com/1BBIN-Park/ARTEX-",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-19",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "5dive-ai/5dive-security",
+  "name": "5dive-security",
+  "owner": "5dive-ai",
+  "url": "https://github.com/5dive-ai/5dive-security",
+  "desc": "5dive security check — the engine behind «Check my setup»: checks a sealed private copy of your server and writes a plain report. Part of 5dive.",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Go",
+  "license": "Apache-2.0",
+  "created": "2026-11-21",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Aegis-ON/Aegis-ON",
+  "name": "Aegis-ON",
+  "owner": "Aegis-ON",
+  "url": "https://github.com/Aegis-ON/Aegis-ON",
   "desc": "",
   "stars": 0,
   "forks": 0,
   "lang": "Python",
   "license": null,
-  "created": "2026-11-17",
-  "updated": "2026-11-17",
+  "created": "2026-11-09",
+  "updated": "2026-11-21",
   "topics": [],
-  "kind": "tool",
-  "tier": 0,
-  "tags": [
-   "Android",
-   "韩文"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0097"
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "agent-memory-atlas-archive/BaaRai--ARTEX",
@@ -2314,33 +3862,79 @@
   "tags": [
    "归档"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0098"
+  "note": null
  },
  {
-  "repo": "Alexander4731/Vestrail",
-  "name": "Vestrail",
-  "owner": "Alexander4731",
-  "url": "https://github.com/Alexander4731/Vestrail",
-  "desc": "ARTEX二开增强版-优化敏感操作拦截，增加一键getshell、长链路后渗透、内网横向、逻辑漏洞增强、卫星等IOT协议测试适配等...",
+  "repo": "AlexANSO/ARTEX",
+  "name": "ARTEX",
+  "owner": "AlexANSO",
+  "url": "https://github.com/AlexANSO/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
   "stars": 0,
   "forks": 0,
   "lang": "Go",
   "license": "AGPL-3.0",
-  "created": "2026-10-26",
-  "updated": "2026-11-20",
+  "created": "2026-10-22",
+  "updated": "2026-11-18",
   "topics": [],
   "kind": "fork",
-  "tier": 4,
-  "tags": [
-   "改名",
-   "增强",
-   "IoT"
-  ],
-  "note": "改名 Vestrail，强调“长链路后渗透”。",
-  "attribution": true,
-  "id": "ARTEX-2K-0099"
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "ArkTrek/ARTEMIS",
+  "name": "ARTEMIS",
+  "owner": "ArkTrek",
+  "url": "https://github.com/ArkTrek/ARTEMIS",
+  "desc": "ARTEMIS - the security audit flask. Modern attack surface recon, port audit, and Groq-powered AI security intelligence.",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Python",
+  "license": null,
+  "created": "2026-11-21",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "ayers-ltd/ARTEX",
+  "name": "ARTEX",
+  "owner": "ayers-ltd",
+  "url": "https://github.com/ayers-ltd/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-18",
+  "updated": "2026-11-14",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "AYin-Z/ARTEX",
+  "name": "ARTEX",
+  "owner": "AYin-Z",
+  "url": "https://github.com/AYin-Z/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-12",
+  "updated": "2026-11-11",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "Bilabong0070/ARTEX",
@@ -2360,9 +3954,7 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0100"
+  "note": null
  },
  {
   "repo": "brasalabs6/artex-mcp",
@@ -2389,9 +3981,7 @@
   "tags": [
    "MCP"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0101"
+  "note": null
  },
  {
   "repo": "brunomarx/artex-and-friends",
@@ -2404,16 +3994,68 @@
   "lang": null,
   "license": null,
   "created": "2026-11-17",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "topics": [],
   "kind": "defense",
   "tier": 0,
   "tags": [
    "暴露面日报"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0102"
+  "note": null
+ },
+ {
+  "repo": "bvsaisujith/sauda",
+  "name": "sauda",
+  "owner": "bvsaisujith",
+  "url": "https://github.com/bvsaisujith/sauda",
+  "desc": "",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": null,
+  "created": "2026-11-05",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "byosurack253/ARTEX",
+  "name": "ARTEX",
+  "owner": "byosurack253",
+  "url": "https://github.com/byosurack253/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-17",
+  "updated": "2026-11-17",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "CaiNiao0/ARTEX",
+  "name": "ARTEX",
+  "owner": "CaiNiao0",
+  "url": "https://github.com/CaiNiao0/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-10-28",
+  "updated": "2026-10-30",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "catcarloslaguna/ARTEX",
@@ -2433,9 +4075,61 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0103"
+  "note": null
+ },
+ {
+  "repo": "cheungsingyi/ARTEX-fork",
+  "name": "ARTEX-fork",
+  "owner": "cheungsingyi",
+  "url": "https://github.com/cheungsingyi/ARTEX-fork",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-22",
+  "updated": "2026-10-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "color4pen/security-notes",
+  "name": "security-notes",
+  "owner": "color4pen",
+  "url": "https://github.com/color4pen/security-notes",
+  "desc": "セキュリティニュースの問題点・侵入経路・対策の考察ノート",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Astro",
+  "license": null,
+  "created": "2026-10-01",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Cookiesnob/ARTEX",
+  "name": "ARTEX",
+  "owner": "Cookiesnob",
+  "url": "https://github.com/Cookiesnob/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "coopmarshall/ARTEX-Rip",
@@ -2455,31 +4149,7 @@
   "tags": [
    "Clone"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0104"
- },
- {
-  "repo": "CyberNeurova/artex_cn",
-  "name": "artex_cn",
-  "owner": "CyberNeurova",
-  "url": "https://github.com/CyberNeurova/artex_cn",
-  "desc": "Artex security agent with native Cyberneurova model support via OpenRoute",
-  "stars": 0,
-  "forks": 0,
-  "lang": "Go",
-  "license": "AGPL-3.0",
-  "created": "2026-11-17",
-  "updated": "2026-11-17",
-  "topics": [],
-  "kind": "fork",
-  "tier": 3,
-  "tags": [
-   "国产模型"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0105"
+  "note": null
  },
  {
   "repo": "cybershadowvps/ARTEXVPS",
@@ -2499,9 +4169,25 @@
   "tags": [
    "VPS"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0106"
+  "note": null
+ },
+ {
+  "repo": "d1a0/ARTEX",
+  "name": "ARTEX",
+  "owner": "d1a0",
+  "url": "https://github.com/d1a0/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-28",
+  "updated": "2026-10-28",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "Dce001/ARTEX-v0.3.15",
@@ -2521,9 +4207,7 @@
   "tags": [
    "个人存档"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0107"
+  "note": null
  },
  {
   "repo": "decuff/artex-frozen",
@@ -2543,9 +4227,7 @@
   "tags": [
    "冻结存档"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0108"
+  "note": null
  },
  {
   "repo": "demonyaksa/ARTEX.pure",
@@ -2565,9 +4247,7 @@
   "tags": [
    "纯净版"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0109"
+  "note": null
  },
  {
   "repo": "DevComputaria/ARTEX",
@@ -2587,9 +4267,43 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0110"
+  "note": null
+ },
+ {
+  "repo": "dovel-ai/darwin-test-artex",
+  "name": "darwin-test-artex",
+  "owner": "dovel-ai",
+  "url": "https://github.com/dovel-ai/darwin-test-artex",
+  "desc": "Test copy of BaaRai/ARTEX (AGPL-3.0) for Darwin",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "DragonICE-Code/ARTEX",
+  "name": "ARTEX",
+  "owner": "DragonICE-Code",
+  "url": "https://github.com/DragonICE-Code/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-22",
+  "updated": "2026-10-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "dsagent1/Aegis-Artex",
@@ -2602,16 +4316,14 @@
   "lang": "Python",
   "license": "MIT",
   "created": "2026-11-19",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "topics": [],
   "kind": "fork",
   "tier": 3,
   "tags": [
    "防御化改造"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0111"
+  "note": null
  },
  {
   "repo": "EdVanga/artex",
@@ -2631,126 +4343,43 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0112"
+  "note": null
  },
  {
-  "repo": "ethan889-bot/Artex-Audit",
-  "name": "Artex-Audit",
-  "owner": "ethan889-bot",
-  "url": "https://github.com/ethan889-bot/Artex-Audit",
-  "desc": "",
+  "repo": "ele11en/tux",
+  "name": "tux",
+  "owner": "ele11en",
+  "url": "https://github.com/ele11en/tux",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
   "stars": 0,
   "forks": 0,
   "lang": null,
-  "license": null,
-  "created": "2026-11-17",
-  "updated": "2026-11-17",
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-19",
   "topics": [],
-  "kind": "defense",
-  "tier": 0,
-  "tags": [
-   "审计"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0113"
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
-  "repo": "examscrusher2026/ARTEX",
+  "repo": "forxiucn/ARTEX",
   "name": "ARTEX",
-  "owner": "examscrusher2026",
-  "url": "https://github.com/examscrusher2026/ARTEX",
-  "desc": "ARTEX - AI autonomous penetration testing system (standalone copy of BaaRai/ARTEX, AGPL-3.0)",
+  "owner": "forxiucn",
+  "url": "https://github.com/forxiucn/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
   "stars": 0,
   "forks": 0,
   "lang": "Go",
   "license": "AGPL-3.0",
-  "created": "2026-11-17",
-  "updated": "2026-11-17",
+  "created": "2026-10-21",
+  "updated": "2026-10-21",
   "topics": [],
-  "kind": "mirror",
-  "tier": 0,
-  "tags": [
-   "独立副本"
-  ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0114"
- },
- {
-  "repo": "examscrusher2026/artex-global",
-  "name": "artex-global",
-  "owner": "examscrusher2026",
-  "url": "https://github.com/examscrusher2026/artex-global",
-  "desc": "Global edition of ARTEX — LLM multi-agent penetration-testing framework (standalone copy of jiwoochris/artex-global, upstream Autumn-27/ARTEX, AGPL-3.0)",
-  "stars": 0,
-  "forks": 1,
-  "lang": "Go",
-  "license": "AGPL-3.0",
-  "created": "2026-11-17",
-  "updated": "2026-11-17",
-  "topics": [],
-  "kind": "mirror",
-  "tier": 0,
-  "tags": [
-   "独立副本"
-  ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0115"
- },
- {
-  "repo": "examscrusher2026/ARTEX-Hinln",
-  "name": "ARTEX-Hinln",
-  "owner": "examscrusher2026",
-  "url": "https://github.com/examscrusher2026/ARTEX-Hinln",
-  "desc": "ARTEX (standalone copy of Hinln/ARTEX, based on Autumn-27/ARTEX v0.3.15, AGPL-3.0)",
-  "stars": 0,
-  "forks": 0,
-  "lang": "Go",
-  "license": "AGPL-3.0",
-  "created": "2026-11-17",
-  "updated": "2026-11-17",
-  "topics": [],
-  "kind": "mirror",
-  "tier": 0,
-  "tags": [
-   "独立副本"
-  ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0116"
- },
- {
-  "repo": "fboiero/artex-caso-de-estudio",
-  "name": "artex-caso-de-estudio",
-  "owner": "fboiero",
-  "url": "https://github.com/fboiero/artex-caso-de-estudio",
-  "desc": "Caso de estudio, auditoría de código y detección de ARTEX (pentest autónomo con IA) — material de cátedra UTN FRVM",
-  "stars": 0,
-  "forks": 0,
-  "lang": "Python",
-  "license": "NOASSERTION",
-  "created": "2026-11-20",
-  "updated": "2026-11-20",
-  "topics": [
-   "ai-security",
-   "detection-engineering",
-   "education",
-   "pentest",
-   "security",
-   "sigma"
-  ],
-  "kind": "defense",
-  "tier": 0,
-  "tags": [
-   "教学案例"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0117"
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "freedomfighter-007/ARTEX-Defensive-Detection",
@@ -2770,9 +4399,25 @@
   "tags": [
    "YARA"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0118"
+  "note": null
+ },
+ {
+  "repo": "fuzzing0day/ARTEX-2",
+  "name": "ARTEX-2",
+  "owner": "fuzzing0day",
+  "url": "https://github.com/fuzzing0day/ARTEX-2",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-19",
+  "updated": "2026-11-14",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "Gh0xE9/open_artex",
@@ -2782,19 +4427,35 @@
   "desc": "鉴于 ARTEX 二开项目太多，这里直接汇总所有二开/三开/N开的 ARTEX 项目，供大家参考",
   "stars": 0,
   "forks": 0,
-  "lang": null,
-  "license": null,
+  "lang": "TypeScript",
+  "license": "MIT",
   "created": "2026-11-20",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "topics": [],
   "kind": "index",
   "tier": 0,
   "tags": [
    "本站"
   ],
-  "note": "本站仓库。",
-  "attribution": true,
-  "id": "ARTEX-2K-0119"
+  "note": "本站仓库。"
+ },
+ {
+  "repo": "Grugrog/ARTEX-termux-mobile",
+  "name": "ARTEX-termux-mobile",
+  "owner": "Grugrog",
+  "url": "https://github.com/Grugrog/ARTEX-termux-mobile",
+  "desc": "ARTEX Branch designed to be run on a gaming phone using termux",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "haoit/artex-global",
@@ -2814,9 +4475,7 @@
   "tags": [
    "镜像"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0120"
+  "note": null
  },
  {
   "repo": "henryengels/artex-pentest-estudo",
@@ -2836,31 +4495,7 @@
   "tags": [
    "案例研究"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0121"
- },
- {
-  "repo": "hisashiyamaguchi/artex-ttps-gap-analysis",
-  "name": "artex-ttps-gap-analysis",
-  "owner": "hisashiyamaguchi",
-  "url": "https://github.com/hisashiyamaguchi/artex-ttps-gap-analysis",
-  "desc": "ARTEX pentest-framework TTP coverage vs. a mock customer's OCSF telemetry — detection gap analysis (simulated hands-on study)",
-  "stars": 0,
-  "forks": 0,
-  "lang": "HTML",
-  "license": null,
-  "created": "2026-11-17",
-  "updated": "2026-11-17",
-  "topics": [],
-  "kind": "defense",
-  "tier": 0,
-  "tags": [
-   "TTP 覆盖度"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0122"
+  "note": null
  },
  {
   "repo": "hwnh3333/artex",
@@ -2880,9 +4515,7 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0123"
+  "note": null
  },
  {
   "repo": "iAm-182/ARTEX",
@@ -2902,9 +4535,97 @@
   "tags": [
    "归档"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0124"
+  "note": null
+ },
+ {
+  "repo": "idark077i/ARTEX",
+  "name": "ARTEX",
+  "owner": "idark077i",
+  "url": "https://github.com/idark077i/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-22",
+  "updated": "2026-10-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "idsin02/idsin02.github.io",
+  "name": "idsin02.github.io",
+  "owner": "idsin02",
+  "url": "https://github.com/idsin02/idsin02.github.io",
+  "desc": "",
+  "stars": 0,
+  "forks": 0,
+  "lang": "HTML",
+  "license": null,
+  "created": "2026-08-17",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "iholo/ARTEX",
+  "name": "ARTEX",
+  "owner": "iholo",
+  "url": "https://github.com/iholo/ARTEX",
+  "desc": "Autumn-27/ARTEX 二开",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-10",
+  "updated": "2026-10-10",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "irvan-putra/kaji",
+  "name": "kaji",
+  "owner": "irvan-putra",
+  "url": "https://github.com/irvan-putra/kaji",
+  "desc": "Cross-project research notes on app updates and zero-cash break-even methods.",
+  "stars": 0,
+  "forks": 0,
+  "lang": "HTML",
+  "license": null,
+  "created": "2026-11-16",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Jack-Hwang/beyondthesecurity-sbom",
+  "name": "beyondthesecurity-sbom",
+  "owner": "Jack-Hwang",
+  "url": "https://github.com/Jack-Hwang/beyondthesecurity-sbom",
+  "desc": "Open source scanning tools & vulnerability analysis tool with SBOM for all industries",
+  "stars": 0,
+  "forks": 1,
+  "lang": "Python",
+  "license": "Apache-2.0",
+  "created": "2026-11-16",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "jaysonguglietta/artexV2",
@@ -2917,16 +4638,32 @@
   "lang": "Go",
   "license": "AGPL-3.0",
   "created": "2026-11-18",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "topics": [],
   "kind": "fork",
   "tier": 2,
   "tags": [
    "版本号 +V2"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0125"
+  "note": null
+ },
+ {
+  "repo": "JOHNadonis/ARTEX-2",
+  "name": "ARTEX-2",
+  "owner": "JOHNadonis",
+  "url": "https://github.com/JOHNadonis/ARTEX-2",
+  "desc": "Autumn-27/ARTEX 二开",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-10",
+  "updated": "2026-10-10",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "johnnsonxx/artex",
@@ -2946,9 +4683,7 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0126"
+  "note": null
  },
  {
   "repo": "joker553/dsh-artex-ops",
@@ -2976,9 +4711,25 @@
    "DSH 插件",
    "编排"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0127"
+  "note": null
+ },
+ {
+  "repo": "jorge-luis-perez-canto/ARTEX-RuoJi6",
+  "name": "ARTEX-RuoJi6",
+  "owner": "jorge-luis-perez-canto",
+  "url": "https://github.com/jorge-luis-perez-canto/ARTEX-RuoJi6",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-21",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "KaizenTechSolutions/ARTEX_",
@@ -2998,9 +4749,25 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0128"
+  "note": null
+ },
+ {
+  "repo": "kongkong292/ARTEX",
+  "name": "ARTEX",
+  "owner": "kongkong292",
+  "url": "https://github.com/kongkong292/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-27",
+  "updated": "2026-10-27",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "kostchei/artex_sandbox",
@@ -3013,16 +4780,14 @@
   "lang": "JavaScript",
   "license": "AGPL-3.0",
   "created": "2026-11-08",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "topics": [],
   "kind": "tool",
   "tier": 0,
   "tags": [
    "沙箱"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0129"
+  "note": null
  },
  {
   "repo": "kumanaya/ARTEX-EN",
@@ -3042,9 +4807,43 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0130"
+  "note": null
+ },
+ {
+  "repo": "lam0779350168/artex-engage",
+  "name": "artex-engage",
+  "owner": "lam0779350168",
+  "url": "https://github.com/lam0779350168/artex-engage",
+  "desc": "",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Python",
+  "license": null,
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "larrypipi/ARTEX",
+  "name": "ARTEX",
+  "owner": "larrypipi",
+  "url": "https://github.com/larrypipi/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-06",
+  "updated": "2026-11-05",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "lazycat-contrib/artex-global-lzcapp",
@@ -3057,16 +4856,104 @@
   "lang": null,
   "license": null,
   "created": "2026-11-19",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "topics": [],
   "kind": "tool",
   "tier": 0,
   "tags": [
    "懒猫微服"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0131"
+  "note": null
+ },
+ {
+  "repo": "LeonHauck/ArtExtreme",
+  "name": "ArtExtreme",
+  "owner": "LeonHauck",
+  "url": "https://github.com/LeonHauck/ArtExtreme",
+  "desc": "App de agendamento para o estúdio de tatuagem ArtExtreme , com simulador de orçamento em um corpo 3D interativo.",
+  "stars": 0,
+  "forks": 0,
+  "lang": "TypeScript",
+  "license": null,
+  "created": "2026-10-28",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "lin9527ya/BLADE",
+  "name": "BLADE",
+  "owner": "lin9527ya",
+  "url": "https://github.com/lin9527ya/BLADE",
+  "desc": "",
+  "stars": 0,
+  "forks": 1,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-10-10",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "linyining2013/ARTEX",
+  "name": "ARTEX",
+  "owner": "linyining2013",
+  "url": "https://github.com/linyining2013/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-15",
+  "updated": "2026-11-14",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Linyueying/ARTEX-zh-cn",
+  "name": "ARTEX-zh-cn",
+  "owner": "Linyueying",
+  "url": "https://github.com/Linyueying/ARTEX-zh-cn",
+  "desc": "Autumn-27/ARTEX 二开",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-15",
+  "updated": "2026-10-16",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "lisien11/argus-pentest",
+  "name": "argus-pentest",
+  "owner": "lisien11",
+  "url": "https://github.com/lisien11/argus-pentest",
+  "desc": "Coverage-first black-box web/API penetration testing agent (Argus v0.4.0)",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Python",
+  "license": "MIT",
+  "created": "2026-11-20",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "logsexe/artex-detection-as-code",
@@ -3086,9 +4973,25 @@
   "tags": [
    "检测即代码"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0132"
+  "note": null
+ },
+ {
+  "repo": "loobug/ARTEX1",
+  "name": "ARTEX1",
+  "owner": "loobug",
+  "url": "https://github.com/loobug/ARTEX1",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "Lusitaniae/artex-hardening",
@@ -3108,31 +5011,61 @@
   "tags": [
    "遏制基线"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0133"
+  "note": null
  },
  {
-  "repo": "MiKom/artex-global",
-  "name": "artex-global",
-  "owner": "MiKom",
-  "url": "https://github.com/MiKom/artex-global",
+  "repo": "mattpetters/awesome-stars",
+  "name": "awesome-stars",
+  "owner": "mattpetters",
+  "url": "https://github.com/mattpetters/awesome-stars",
   "desc": "",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "CC0-1.0",
+  "created": "2026-05-30",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "may5ThSummerWind/ARTEX",
+  "name": "ARTEX",
+  "owner": "may5ThSummerWind",
+  "url": "https://github.com/may5ThSummerWind/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-06",
+  "updated": "2026-11-05",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "mimi399/ARTEX",
+  "name": "ARTEX",
+  "owner": "mimi399",
+  "url": "https://github.com/mimi399/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
   "stars": 0,
   "forks": 0,
   "lang": "Go",
   "license": "AGPL-3.0",
-  "created": "2026-11-17",
+  "created": "2026-11-13",
   "updated": "2026-11-17",
   "topics": [],
   "kind": "fork",
   "tier": 1,
-  "tags": [
-   "镜像"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0134"
+  "tags": [],
+  "note": null
  },
  {
   "repo": "Mohamed2820/ARTEX-Mobile",
@@ -3152,9 +5085,7 @@
   "tags": [
    "移动端"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0135"
+  "note": null
  },
  {
   "repo": "mrvcode/artex-kql-hunting-playbook",
@@ -3175,9 +5106,7 @@
    "KQL",
    "狩猎"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0136"
+  "note": null
  },
  {
   "repo": "msee-dev/artex",
@@ -3197,31 +5126,193 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0137"
+  "note": null
  },
  {
-  "repo": "mshzy/ARTEX-linux",
-  "name": "ARTEX-linux",
-  "owner": "mshzy",
-  "url": "https://github.com/mshzy/ARTEX-linux",
-  "desc": "",
+  "repo": "MUJUN-2025/ARTEX",
+  "name": "ARTEX",
+  "owner": "MUJUN-2025",
+  "url": "https://github.com/MUJUN-2025/ARTEX",
+  "desc": "Autumn-27/ARTEX 二开",
   "stars": 0,
   "forks": 0,
   "lang": null,
-  "license": null,
-  "created": "2026-11-17",
-  "updated": "2026-11-17",
+  "license": "AGPL-3.0",
+  "created": "2026-10-09",
+  "updated": "2026-10-09",
   "topics": [],
-  "kind": "mirror",
-  "tier": 0,
-  "tags": [
-   "Linux 构建"
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "MutualExclusions/Original-ARTEX",
+  "name": "Original-ARTEX",
+  "owner": "MutualExclusions",
+  "url": "https://github.com/MutualExclusions/Original-ARTEX",
+  "desc": "Not made by me just wanted to upload the original clean files for researchers",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Mx0FFFF/artex-for-defi",
+  "name": "artex-for-defi",
+  "owner": "Mx0FFFF",
+  "url": "https://github.com/Mx0FFFF/artex-for-defi",
+  "desc": "ARTEX autonomous security-research agent with a DeFi evidence-gated review skill",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "neouks/fate",
+  "name": "fate",
+  "owner": "neouks",
+  "url": "https://github.com/neouks/fate",
+  "desc": "",
+  "stars": 0,
+  "forks": 1,
+  "lang": "TypeScript",
+  "license": null,
+  "created": "2026-10-17",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "nextgomsb/ARTEXNEW",
+  "name": "ARTEXNEW",
+  "owner": "nextgomsb",
+  "url": "https://github.com/nextgomsb/ARTEXNEW",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-17",
+  "updated": "2026-10-15",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "nu11b1ade/ARTEX",
+  "name": "ARTEX",
+  "owner": "nu11b1ade",
+  "url": "https://github.com/nu11b1ade/ARTEX",
+  "desc": "ARTEX 二次开发版本：基于 RuoJi6/ARTEX v0.3.25 迁移，Norma 使用 nu11b1ade/Norma v0.4.3，Docker 镜像 nullblade/artex。",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-10-31",
+  "updated": "2026-11-21",
+  "topics": [
+   "ai-agent",
+   "golang",
+   "nextjs",
+   "penetration-testing",
+   "security"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0138"
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "ottosulin/artex-leashed",
+  "name": "artex-leashed",
+  "owner": "ottosulin",
+  "url": "https://github.com/ottosulin/artex-leashed",
+  "desc": "Run Artex with strictly governed network-egress allowlist to prevent the agent going out of scope.",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Python",
+  "license": "MIT",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "oyesanyf/rfchunt",
+  "name": "rfchunt",
+  "owner": "oyesanyf",
+  "url": "https://github.com/oyesanyf/rfchunt",
+  "desc": "",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Python",
+  "license": null,
+  "created": "2026-10-13",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "patrickstar231/ARTEX",
+  "name": "ARTEX",
+  "owner": "patrickstar231",
+  "url": "https://github.com/patrickstar231/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "pdqcom/ARTEX",
+  "name": "ARTEX",
+  "owner": "pdqcom",
+  "url": "https://github.com/pdqcom/ARTEX",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "peektyer305/artex-ymh",
@@ -3241,9 +5332,7 @@
   "tags": [
    "日文"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0139"
+  "note": null
  },
  {
   "repo": "rainer405/ARTEX",
@@ -3263,9 +5352,25 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0140"
+  "note": null
+ },
+ {
+  "repo": "RickyL/artex",
+  "name": "artex",
+  "owner": "RickyL",
+  "url": "https://github.com/RickyL/artex",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-21",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "rnunezrgn/AAP_Artex_hunt",
@@ -3285,31 +5390,104 @@
   "tags": [
    "狩猎"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0141"
+  "note": null
  },
  {
-  "repo": "shenanigo/ARTEX",
-  "name": "ARTEX",
-  "owner": "shenanigo",
-  "url": "https://github.com/shenanigo/ARTEX",
-  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "repo": "RwandanMtGorilla/github-trending",
+  "name": "github-trending",
+  "owner": "RwandanMtGorilla",
+  "url": "https://github.com/RwandanMtGorilla/github-trending",
+  "desc": "使用 Github Actions 跟踪 Github 趋势项目。",
   "stars": 0,
   "forks": 0,
-  "lang": null,
-  "license": "AGPL-3.0",
-  "created": "2026-11-19",
-  "updated": "2026-11-19",
+  "lang": "Python",
+  "license": "MIT",
+  "created": "2026-02-02",
+  "updated": "2026-11-21",
   "topics": [],
   "kind": "fork",
   "tier": 1,
-  "tags": [
-   "原样"
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "SasukeMV/artex-i28110-probe",
+  "name": "artex-i28110-probe",
+  "owner": "SasukeMV",
+  "url": "https://github.com/SasukeMV/artex-i28110-probe",
+  "desc": "credential-reuse probe 28110",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": null,
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "sickboy8388/red-team-radar",
+  "name": "red-team-radar",
+  "owner": "sickboy8388",
+  "url": "https://github.com/sickboy8388/red-team-radar",
+  "desc": "",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": null,
+  "created": "2026-07-30",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "smirowstanitzok/sascha-ms-examples",
+  "name": "sascha-ms-examples",
+  "owner": "smirowstanitzok",
+  "url": "https://github.com/smirowstanitzok/sascha-ms-examples",
+  "desc": "Tested code examples from the articles on sascha-ms.de: AI, serverless with AWS CDK and TypeScript.",
+  "stars": 0,
+  "forks": 0,
+  "lang": "TypeScript",
+  "license": "MIT",
+  "created": "2026-10-23",
+  "updated": "2026-11-21",
+  "topics": [
+   "aws",
+   "aws-cdk",
+   "aws-lambda",
+   "claude-code",
+   "dynamodb",
+   "mcp"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0142"
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Srysfu/artex-mobile-tools",
+  "name": "artex-mobile-tools",
+  "owner": "Srysfu",
+  "url": "https://github.com/Srysfu/artex-mobile-tools",
+  "desc": "ARTEX Android 外挂工具源 - 27 个 AArch64 静态 ELF",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Python",
+  "license": null,
+  "created": "2026-11-21",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "steveopen1/artex-ld",
@@ -3336,9 +5514,25 @@
   "tags": [
    "流程优化"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0143"
+  "note": null
+ },
+ {
+  "repo": "taoge399/ARTEX",
+  "name": "ARTEX",
+  "owner": "taoge399",
+  "url": "https://github.com/taoge399/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-12",
+  "updated": "2026-11-11",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "Toru9X/ARTEX",
@@ -3358,9 +5552,7 @@
   "tags": [
    "合并特性"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0144"
+  "note": null
  },
  {
   "repo": "venu-madhav-mahadevu/artex-bank-security",
@@ -3380,9 +5572,25 @@
   "tags": [
    "攻击复盘"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0145"
+  "note": null
+ },
+ {
+  "repo": "vevenlcf2/ARTEX-ori",
+  "name": "ARTEX-ori",
+  "owner": "vevenlcf2",
+  "url": "https://github.com/vevenlcf2/ARTEX-ori",
+  "desc": "Autumn-27/ARTEX 二开",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-09",
+  "updated": "2026-10-09",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "vu1Art1st/ARTEX-Ghoul",
@@ -3402,9 +5610,7 @@
   "tags": [
    "改名"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0146"
+  "note": null
  },
  {
   "repo": "watoomz/Artex_failsafe_fork_English_translation",
@@ -3424,9 +5630,25 @@
   "tags": [
    "英文"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0147"
+  "note": null
+ },
+ {
+  "repo": "wblxr408/agh-plugin-artex-evidence-review",
+  "name": "agh-plugin-artex-evidence-review",
+  "owner": "wblxr408",
+  "url": "https://github.com/wblxr408/agh-plugin-artex-evidence-review",
+  "desc": "Reconcile existing audit evidence and remediation records into a traceable findings register.",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "MIT",
+  "created": "2026-11-21",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "worder12/artex-test",
@@ -3446,9 +5668,25 @@
   "tags": [
    "测试"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0148"
+  "note": null
+ },
+ {
+  "repo": "wpiotrw/MS_SOC",
+  "name": "MS_SOC",
+  "owner": "wpiotrw",
+  "url": "https://github.com/wpiotrw/MS_SOC",
+  "desc": "",
+  "stars": 0,
+  "forks": 0,
+  "lang": "HTML",
+  "license": "MIT",
+  "created": "2026-08-27",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "wwwillchen/artex",
@@ -3468,9 +5706,151 @@
   "tags": [
    "转手分叉"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0149"
+  "note": null
+ },
+ {
+  "repo": "xflxfl/ARTEXv2",
+  "name": "ARTEXv2",
+  "owner": "xflxfl",
+  "url": "https://github.com/xflxfl/ARTEXv2",
+  "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "xia0le/RuoJi6-ARTEX",
+  "name": "RuoJi6-ARTEX",
+  "owner": "xia0le",
+  "url": "https://github.com/xia0le/RuoJi6-ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本 （Internationalized version）",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-15",
+  "updated": "2026-11-14",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "YangAoLib/ARTEX",
+  "name": "ARTEX",
+  "owner": "YangAoLib",
+  "url": "https://github.com/YangAoLib/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-11-04",
+  "updated": "2026-11-03",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "yingcaipro-cmd/artex-hunter",
+  "name": "artex-hunter",
+  "owner": "yingcaipro-cmd",
+  "url": "https://github.com/yingcaipro-cmd/artex-hunter",
+  "desc": "Authorized-lab OpsFlow honeypot: article-style SYSTEM_ALERT inject, decoy vault on :9090, real flag on console only.",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Python",
+  "license": null,
+  "created": "2026-11-21",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "yuen70103/fork_ARTEX",
+  "name": "fork_ARTEX",
+  "owner": "yuen70103",
+  "url": "https://github.com/yuen70103/fork_ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-28",
+  "updated": "2026-10-28",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "yulioom/ARTEX",
+  "name": "ARTEX",
+  "owner": "yulioom",
+  "url": "https://github.com/yulioom/ARTEX",
+  "desc": "Autumn-27/ARTEX 持续维护开源版本",
+  "stars": 0,
+  "forks": 0,
+  "lang": null,
+  "license": "AGPL-3.0",
+  "created": "2026-10-16",
+  "updated": "2026-10-15",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "yzbenyu-wq/ARTEX",
+  "name": "ARTEX",
+  "owner": "yzbenyu-wq",
+  "url": "https://github.com/yzbenyu-wq/ARTEX",
+  "desc": "",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-21",
+  "updated": "2026-11-21",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
+ },
+ {
+  "repo": "Zeerg/artex",
+  "name": "artex",
+  "owner": "Zeerg",
+  "url": "https://github.com/Zeerg/artex",
+  "desc": "Autonomous penetration testing platform (hard fork of Autumn-27/artex)",
+  "stars": 0,
+  "forks": 0,
+  "lang": "Go",
+  "license": "AGPL-3.0",
+  "created": "2026-11-20",
+  "updated": "2026-11-20",
+  "topics": [],
+  "kind": "fork",
+  "tier": 1,
+  "tags": [],
+  "note": null
  },
  {
   "repo": "zengdard/artex-mobile",
@@ -3497,9 +5877,7 @@
   "tags": [
    "Android/Termux"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0150"
+  "note": null
  },
  {
   "repo": "zenneyy/ARTEX",
@@ -3519,31 +5897,7 @@
   "tags": [
    "原样"
   ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0151"
- },
- {
-  "repo": "zhaoyangpp/ARTEX-release",
-  "name": "ARTEX-release",
-  "owner": "zhaoyangpp",
-  "url": "https://github.com/zhaoyangpp/ARTEX-release",
-  "desc": "ARTEX ???????? linux-amd64 ?????",
-  "stars": 0,
-  "forks": 0,
-  "lang": null,
-  "license": null,
-  "created": "2026-11-17",
-  "updated": "2026-11-17",
-  "topics": [],
-  "kind": "mirror",
-  "tier": 0,
-  "tags": [
-   "Release 转存"
-  ],
-  "note": null,
-  "attribution": false,
-  "id": "ARTEX-2K-0152"
+  "note": null
  },
  {
   "repo": "zizz7/ARTEX-English",
@@ -3563,8 +5917,6 @@
   "tags": [
    "英文"
   ],
-  "note": null,
-  "attribution": true,
-  "id": "ARTEX-2K-0153"
+  "note": null
  }
 ]
