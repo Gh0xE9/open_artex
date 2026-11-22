@@ -62,6 +62,59 @@ select {
   padding: 0 28px;
 }
 
+/* ---------- notice (unofficial) ---------- */
+
+.notice {
+  border-bottom: 1px solid var(--line);
+  background: #f1eee5;
+}
+
+.notice-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 34px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 10.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  flex-wrap: wrap;
+}
+
+.notice-tag {
+  font-family: var(--mono);
+  font-size: 8.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--seal);
+  border: 1px solid #ddc5bf;
+  padding: 2px 5px;
+  line-height: 1;
+  flex: none;
+}
+
+.notice-text {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.notice-more {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line-2);
+  white-space: nowrap;
+  flex: none;
+}
+
+.notice-more:hover {
+  color: var(--seal);
+  border-color: var(--seal);
+}
+
 /* ---------- masthead ---------- */
 
 .masthead {
@@ -122,6 +175,14 @@ select {
   white-space: nowrap;
 }
 
+.brand-short {
+  display: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -147,6 +208,38 @@ select {
   padding-left: 22px;
   border-left: 1px solid var(--line);
   white-space: nowrap;
+}
+
+.lang-switch {
+  display: inline-flex;
+  border: 1px solid var(--line-2);
+  flex: none;
+}
+
+.lang-switch button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 9.5px;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  padding: 4px 7px;
+  color: var(--muted);
+  transition: color 0.12s linear;
+}
+
+.lang-switch button + button {
+  border-left: 1px solid var(--line-2);
+}
+
+.lang-switch button:hover {
+  color: var(--ink);
+}
+
+.lang-switch button[data-on="true"] {
+  background: var(--ink);
+  color: #fdfcf8;
 }
 
 /* ---------- hero ---------- */
@@ -205,6 +298,7 @@ h1.hero-title {
 .hero-lead strong {
   font-weight: 600;
   color: var(--ink);
+  white-space: nowrap;
 }
 
 .hero-note {
@@ -887,13 +981,16 @@ table.registry td:last-child {
   margin-top: 64px;
   border-top: 1px solid var(--line-2);
   padding: 28px 0 40px;
+  font-size: 10.5px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.foot-inner {
   display: flex;
   justify-content: space-between;
   gap: 32px;
   flex-wrap: wrap;
-  font-size: 10.5px;
-  color: var(--muted);
-  line-height: 1.8;
 }
 
 .foot-col {
@@ -1285,6 +1382,38 @@ table.registry td:last-child {
   .wrap {
     padding: 0 18px;
   }
+  .notice-inner {
+    gap: 6px 8px;
+    font-size: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .notice-text {
+    flex: 1 1 100%;
+    order: 3;
+  }
+  .notice-more {
+    margin-left: auto;
+  }
+  .brand-text {
+    min-width: 0;
+  }
+  .brand-cn {
+    font-size: 12.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .hero-sub {
+    font-size: 9px;
+    letter-spacing: 0.08em;
+  }
+  .eyebrow {
+    font-size: 9px;
+    letter-spacing: 0.13em;
+  }
+  .nav {
+    gap: 11px;
+  }
   .statement {
     margin-top: 40px;
     padding-top: 22px;
@@ -1307,9 +1436,6 @@ table.registry td:last-child {
   .brand-en,
   .nav-meta {
     display: none;
-  }
-  .nav {
-    gap: 14px;
   }
   .nav-hide-sm {
     display: none;
@@ -1394,5 +1520,20 @@ table.registry td:last-child {
   }
   .grid-meta div:nth-last-child(-n + 2) {
     border-bottom: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .brand-cn {
+    display: none;
+  }
+  .brand-short {
+    display: inline;
+  }
+  .nav {
+    gap: 9px;
+  }
+  .notice-text {
+    font-size: 9.5px;
   }
 }

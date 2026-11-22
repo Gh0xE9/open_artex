@@ -1,6 +1,113 @@
-# ARTEX 二开认证中心
+# ARTEX Derivative Registry
+
+Live: **https://openartex.vercel.app**
+
+> **Unofficial.** An independent, satirical fan project. Not affiliated with ARTEX, its author, or any
+> listed repository. Kept for entertainment and archival purposes only. A certificate number is a
+> registry ID, not a credential.
+
+The ARTEX upstream (`Autumn-27/ARTEX`) was deleted from GitHub in October 2026. The source did not go
+with it: it circulates as v0.3.15 across dozens of repositories, renamed, reskinned and weaponized.
+This site catalogues all of them and grades each one Ⅰ–Ⅴ by how far it drifted.
+
+- **Registry**: 261 repositories, 199 derivatives, ~30k stars (snapshot 2026-11-22)
+- **Certificate pages**: one number, one SVG badge, one quotable description per entry
+- **Community submissions**: `data/submissions/*.json` + PR, numbered on merge
+- **Stack**: Next.js 16 (App Router) · React 19 · TypeScript · no UI dependencies · plain CSS
+- **Languages**: English by default, Chinese one click away (`EN / 中文` in the header)
+
+## Run it
+
+```bash
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # prebuild merges submissions first
+```
+
+## Structure
+
+```
+app/
+  page.tsx              home: stats + registry (filter / search / sort)
+  p/[id]/page.tsx       certificate page (all entries pre-rendered)
+  badge/[file]/route.ts SVG badge, ?lang=zh for Chinese
+  about/page.tsx        rules, tiers, disclaimer
+  globals.css           design tokens and all styles
+components/
+  LangProvider.tsx      language state (localStorage + ?lang=)
+  HomeView/AboutView/CertView/Registry   bilingual views
+  Chrome.tsx            notice bar, header, footer, language switch
+  Seal.tsx              2K seal (glyphs swap with language)
+  Seg.tsx               text segments with <strong> / <code>
+lib/
+  copy.ts               every UI string, en + zh, plus tag/note translation maps
+  taxonomy.ts           kinds, tiers, roman numerals (no data import)
+  data.ts               registry.json + derived stats (server side)
+  site.ts               single source of the absolute URL and badge snippets
+data/
+  repos.json            GitHub snapshot (scripts/sync.mjs)
+  curation.json         hand-curated layer: kind / tier / tags / note
+  submissions/          community entries (the PR entry point)
+  ids.json              number map (append-only)
+  registry.json         merged result (what the site reads)
+scripts/
+  sync.mjs              fetch GitHub -> repos.json -> registry.json
+  build-registry.mjs    merge submissions -> registry.json
+  intake.mjs            GitHub issue -> submission entry (maintainer)
+  lib.mjs               merge and numbering logic
+PR.md                   submission guide (English + Chinese)
+```
+
+## Data pipeline
+
+```bash
+# refresh the GitHub snapshot (token recommended; anonymous quota is 60/hour)
+GITHUB_TOKEN=ghp_xxx npm run sync
+
+# merge submissions only (offline; runs on build/CI)
+node scripts/build-registry.mjs
+
+# turn one issue into an entry (maintainer)
+node scripts/intake.mjs 1        # also accepts a full issue URL
+# already listed  -> prints the existing number, writes nothing
+# not listed      -> fetches stars/lang/licence, writes the entry, assigns a number
+```
+
+Tier is never assigned automatically: the script writes a conservative default and a human reviews it.
+Numbers (`ARTEX-2K-0001` …) are written to `data/ids.json` on first assignment, never renumbered, and
+retired rather than reused when an entry is removed.
+
+## Deploy to Vercel
+
+1. Push to GitHub, import the repository in Vercel (Next.js is detected automatically).
+2. The canonical URL defaults to `https://openartex.vercel.app`; set `NEXT_PUBLIC_SITE_URL` to
+   override it. Badge snippets, canonicals, `sitemap.xml` and `robots.txt` all derive from that single
+   value (`lib/site.ts`).
+3. Optional: add `GITHUB_TOKEN` so `npm run sync` can run locally or in CI. Building the site itself
+   needs no network access.
+
+## Language
+
+The UI is English by default. The header switch stores the choice in `localStorage`; `?lang=zh`
+deep-links straight to Chinese and also persists. Badges are rendered per language: `/badge/<id>.svg`
+is English, `?lang=zh` is Chinese, and the copy box on a certificate page emits the matching snippet.
+
+## Boundaries
+
+This site only indexes public repository links and their own descriptions. It does not host,
+mirror, distribute or compile any ARTEX source or derivative. Numbers carry no certification, audit or
+security-endorsement value. Corrections and removals go through an issue.
+
+Site code is MIT; the registry data belongs to the respective repositories and their authors.
+
+---
+
+# 中文说明
 
 线上地址：**https://openartex.vercel.app**
+
+**非官方**：本站是独立的戏谑性副项目，与 ARTEX、其原作者及名录中的任何仓库均无隶属关系，仅供娱乐与存档。
+认证编号只是登记序号，不具备任何资质效力。
 
 ARTEX 上游（`Autumn-27/ARTEX`）已于 2026 年 10 月从 GitHub 删除，源码以 v0.3.15 的形式在数十个仓库间流转，
 改名、换皮、加装武器库后重新上线。这个站点把它们全部登记在册，按改动深度授予 Ⅰ—Ⅴ 级认证。
@@ -9,72 +116,8 @@ ARTEX 上游（`Autumn-27/ARTEX`）已于 2026 年 10 月从 GitHub 删除，源
 - **认证详情**：每个条目一个编号、一枚 SVG 徽章、一段可引用的自述
 - **社区提交**：`data/submissions/*.json` + PR，合并后自动编号
 - **技术栈**：Next.js 16（App Router）· React 19 · TypeScript · 零 UI 依赖 · 纯 CSS
+- **语言**：默认英文，右上角 `EN / 中文` 可切换；`?lang=zh` 可直接进中文
 
-## 本地运行
-
-```bash
-npm install
-npm run dev      # http://localhost:3000
-npm run build    # prebuild 会先合并 submissions
-```
-
-## 目录
-
-```
-app/
-  page.tsx              首页：统计 + 认证名录（筛选/搜索/排序）
-  p/[id]/page.tsx       认证详情（构建时静态生成全部条目）
-  badge/[file]/route.ts SVG 认证徽章
-  about/page.tsx        认证规则、分级标准、免责
-  globals.css           设计令牌与全部样式
-components/
-  Registry.tsx          客户端筛选表格
-  Seal.tsx              印章 SVG
-data/
-  repos.json            GitHub 抓取快照（scripts/sync.mjs 生成）
-  curation.json         人工策展层：kind / tier / tags / note
-  submissions/          社区提交条目（PR 入口）
-  ids.json              编号映射（只增不改）
-  registry.json         合并结果（站点读取，构建生成）
-scripts/
-  sync.mjs              抓取 GitHub → repos.json → registry.json
-  build-registry.mjs    仅合并 submissions → registry.json
-  intake.mjs            GitHub Issue → submissions 条目（维护者用）
-  lib.mjs               合并与编号逻辑
-PR.md                   提交指南（对外）
-```
-
-## 数据管道
-
-```bash
-# 刷新 GitHub 快照（建议带 token，匿名配额 60 次/小时）
-GITHUB_TOKEN=ghp_xxx npm run sync
-
-# 只合并 submissions（离线可用，CI/构建时执行）
-node scripts/build-registry.mjs
-
-# 处理一条 Issue 提交（维护者用）
-node scripts/intake.mjs 1        # 也接受 issue 完整 URL
-# 已登记 → 打印现有编号，不写文件，回复后关闭
-# 未登记 → 抓仓库元数据（stars/lang/license…），生成 submissions 条目并分配编号
-```
-
-tier（改动深度）不自动判定：脚本给保守默认值，合并后需人工核对；tags 默认为空，需要补。
-
-编号规则：`ARTEX-2K-0001` 递增，首次分配后写入 `data/ids.json`，之后不因排名变化改号，下架后作废不复用。
-
-## 部署到 Vercel
-
-1. 推到 GitHub，在 Vercel 里 Import 该仓库（框架自动识别 Next.js）。
-2. 站点绝对地址默认已是 `https://openartex.vercel.app`；换域名时设 `NEXT_PUBLIC_SITE_URL` 覆盖。
-   徽章 Markdown/HTML 片段、详情页 canonical、`sitemap.xml`、`robots.txt` 全部由它派生（`lib/site.ts` 是唯一来源）。
-3. 可选：加 `GITHUB_TOKEN`，供本地或 CI 跑 `npm run sync`；站点构建本身不联网。
-
-`npm run build` 会先执行 `prebuild` 合并提交，再静态生成所有详情页，无需数据库。
-
-## 边界
-
-本站只索引公开仓库链接与自述文本，不托管、不分发、不编译任何 ARTEX 源码或其衍生品。认证编号是登记序号，
-不具备资质、审计或安全背书效力。更正与下架走 Issue。
+本地运行、目录结构、数据管道与部署步骤见上方英文段（命令与路径完全一致）。
 
 站点代码 MIT；仓库内登记数据来自各仓库公开自述，版权归原作者。

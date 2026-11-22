@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { useI18n } from "@/components/LangProvider";
 
 export function CopyBox({ value }: { value: string }) {
+  const { c } = useI18n();
   const [copied, setCopied] = useState(false);
 
   async function copy() {
@@ -29,7 +31,7 @@ export function CopyBox({ value }: { value: string }) {
         className="btn"
         style={{ padding: "3px 8px", fontSize: 10, flex: "none" }}
       >
-        {copied ? "已复制" : "复制"}
+        {copied ? c.cert.copiedBtn : c.cert.copyBtn}
       </button>
     </div>
   );
