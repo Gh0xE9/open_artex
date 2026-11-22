@@ -1,45 +1,45 @@
-name: 提交一个漏网项目
-description: 发现 ARTEX 二开项目没被收录？贴个链接就行
-title: "[2K] 新增：owner/repo"
+name: Submit a missing project
+description: Found an ARTEX derivative that is not listed? A link is enough.
+title: "[2K] add: owner/repo"
 labels: ["submission"]
 body:
   - type: input
     id: repo
     attributes:
-      label: 仓库地址
+      label: Repository URL
       placeholder: https://github.com/owner/repo
     validations:
       required: true
   - type: dropdown
     id: kind
     attributes:
-      label: 类型
+      label: Type
       options:
-        - 二开（fork）
-        - 备份镜像（mirror）
-        - 防御研究（defense）
-        - 周边工具（tool）
-        - 主要发行（distribution）
+        - Derivative (fork)
+        - Backup mirror (mirror)
+        - Defensive research (defense)
+        - Tooling (tool)
+        - Primary distribution (distribution)
     validations:
       required: true
   - type: textarea
     id: why
     attributes:
-      label: 为什么算 ARTEX 相关
-      description: 附上能证明的链接——README 段落、commit、release 说明都行
+      label: Why it counts as ARTEX-related
+      description: Link to the evidence — a README passage, a commit, a release note, all fine
     validations:
       required: true
   - type: textarea
     id: change
     attributes:
-      label: 相对上游改了什么
-      description: 一句话即可，例如“换了前端并接入自建模型网关”
+      label: What changed relative to upstream
+      description: One sentence is enough, e.g. "new frontend plus a self-hosted model gateway"
     validations:
       required: false
   - type: checkboxes
     id: confirm
     attributes:
-      label: 确认
+      label: Confirmation
       options:
-        - label: 该仓库公开可访问，且不含攻击目标、受害者信息或隐私数据
+        - label: The repository is public and contains no attack targets, victim information or private data
           required: true

@@ -146,7 +146,7 @@ if (rejected.length) {
   const merged = new Map((Array.isArray(prevRejected) ? prevRejected : []).map((x) => [x.repo, x]));
   for (const r of rejected) merged.set(r.repo, { ...merged.get(r.repo), ...r, seenAt: new Date().toISOString().slice(0, 10) });
   fs.writeFileSync(path.join(DATA, "rejected.json"), JSON.stringify([...merged.values()], null, 1) + "\n");
-  console.log(`rejected: ${rejected.length} 个新仓库无法证明与 ARTEX 相关，已写入 data/rejected.json`);
+  console.log(`rejected: ${rejected.length} new repositories could not be tied to ARTEX -> data/rejected.json`);
 }
 
 const metaPath = path.join(DATA, "meta.json");
@@ -155,6 +155,6 @@ meta.syncedAt = new Date().toISOString().slice(0, 10);
 meta.queries = [...SEARCHES.map((q) => q.split("&")[0]), ...FORK_SOURCES.map((f) => `forks ${f}`)];
 fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + "\n");
 
-console.log(`snapshot: ${repos.length} 个仓库`);
+console.log(`snapshot: ${repos.length} repositories`);
 const merged = mergeRegistry();
-console.log(`registry: ${merged.total} 条，新增 ${merged.added} 条`);
+console.log(`registry: ${merged.total} entries, ${merged.added} new`);

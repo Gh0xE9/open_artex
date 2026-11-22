@@ -2,7 +2,7 @@
   "name": "artex-2k-registry",
   "version": "1.0.0",
   "private": true,
-  "description": "ARTEX 二开认证中心 — ARTEX 衍生项目公开登记册",
+  "description": "ARTEX Derivative Registry — a public ledger of ARTEX-derived repositories",
   "scripts": {
     "dev": "node scripts/build-registry.mjs && next dev",
     "prebuild": "node scripts/build-registry.mjs",

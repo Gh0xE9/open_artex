@@ -1,16 +1,17 @@
 # ARTEX Derivative Registry
 
-Live: **https://openartex.vercel.app**
+Live: **https://openartex.vercel.app** · [中文说明](README_zh.md)
 
 > **Unofficial.** An independent, satirical fan project. Not affiliated with ARTEX, its author, or any
 > listed repository. Kept for entertainment and archival purposes only. A certificate number is a
 > registry ID, not a credential.
 
-The ARTEX upstream (`Autumn-27/ARTEX`) was deleted from GitHub in October 2026. The source did not go
-with it: it circulates as v0.3.15 across dozens of repositories, renamed, reskinned and weaponized.
-This site catalogues all of them and grades each one Ⅰ–Ⅴ by how far it drifted.
+The ARTEX upstream was deleted from GitHub in October 2026. The source did not go with it: it
+circulates as v0.3.15 across dozens of repositories, renamed, reskinned and weaponized. This site
+catalogues every public copy we could find and grades each one Ⅰ–Ⅴ by how far it drifted from the
+original.
 
-- **Registry**: 261 repositories, 199 derivatives, ~30k stars (snapshot 2026-11-22)
+- **Registry**: 261 repositories, 199 derivatives, 30k+ stars (snapshot 2026-11-22)
 - **Certificate pages**: one number, one SVG badge, one quotable description per entry
 - **Community submissions**: `data/submissions/*.json` + PR, numbered on merge
 - **Stack**: Next.js 16 (App Router) · React 19 · TypeScript · no UI dependencies · plain CSS
@@ -77,6 +78,17 @@ Tier is never assigned automatically: the script writes a conservative default a
 Numbers (`ARTEX-2K-0001` …) are written to `data/ids.json` on first assignment, never renumbered, and
 retired rather than reused when an entry is removed.
 
+## Submitting
+
+Two entry points, both described in [PR.md](PR.md):
+
+- **Pull request** — add `data/submissions/owner--repo.json` (template in `data/submissions/_template.json`).
+  The build merges it and assigns the next number.
+- **Issue** — the submission template only needs a repository URL. A maintainer runs
+  `node scripts/intake.mjs <issue>`, which either reports the existing number or creates the entry.
+
+Corrections and removal requests also go through an issue; they never need a PR.
+
 ## Deploy to Vercel
 
 1. Push to GitHub, import the repository in Vercel (Next.js is detected automatically).
@@ -92,6 +104,24 @@ The UI is English by default. The header switch stores the choice in `localStora
 deep-links straight to Chinese and also persists. Badges are rendered per language: `/badge/<id>.svg`
 is English, `?lang=zh` is Chinese, and the copy box on a certificate page emits the matching snippet.
 
+The switch is client-side rather than `/en` and `/zh` routes on purpose: there are 261 pre-rendered
+certificate pages, and route-level i18n would double the build for one toggle.
+
+## Tiers
+
+Grades describe distance from the upstream code, not quality or intent.
+
+| Tier | Name | What changed |
+| --- | --- | --- |
+| Ⅰ | Copy | Re-uploaded as-is, or with trivial edits. Upstream shape intact. |
+| Ⅱ | Reskin | Renamed, re-themed, re-translated. Same machinery underneath. |
+| Ⅲ | Extended | New modules, skill packs, or orchestration bolted on top. |
+| Ⅳ | Rebuilt | Architecture or stack replaced, or merged into a new product. |
+| Ⅴ | Commercial | Operated publicly: paid groups, hosting, commercial editions. |
+
+Tiers are assigned by a human from the repository's own description and visible shape, never
+automatically; the note on each certificate records what was changed. Appeals go through an issue.
+
 ## Boundaries
 
 This site only indexes public repository links and their own descriptions. It does not host,
@@ -99,25 +129,3 @@ mirror, distribute or compile any ARTEX source or derivative. Numbers carry no c
 security-endorsement value. Corrections and removals go through an issue.
 
 Site code is MIT; the registry data belongs to the respective repositories and their authors.
-
----
-
-# 中文说明
-
-线上地址：**https://openartex.vercel.app**
-
-**非官方**：本站是独立的戏谑性副项目，与 ARTEX、其原作者及名录中的任何仓库均无隶属关系，仅供娱乐与存档。
-认证编号只是登记序号，不具备任何资质效力。
-
-ARTEX 上游（`Autumn-27/ARTEX`）已于 2026 年 10 月从 GitHub 删除，源码以 v0.3.15 的形式在数十个仓库间流转，
-改名、换皮、加装武器库后重新上线。这个站点把它们全部登记在册，按改动深度授予 Ⅰ—Ⅴ 级认证。
-
-- **登记册**：261 个仓库，199 个二开，覆盖 3.0 万 Stars（快照 2026-11-22）
-- **认证详情**：每个条目一个编号、一枚 SVG 徽章、一段可引用的自述
-- **社区提交**：`data/submissions/*.json` + PR，合并后自动编号
-- **技术栈**：Next.js 16（App Router）· React 19 · TypeScript · 零 UI 依赖 · 纯 CSS
-- **语言**：默认英文，右上角 `EN / 中文` 可切换；`?lang=zh` 可直接进中文
-
-本地运行、目录结构、数据管道与部署步骤见上方英文段（命令与路径完全一致）。
-
-站点代码 MIT；仓库内登记数据来自各仓库公开自述，版权归原作者。

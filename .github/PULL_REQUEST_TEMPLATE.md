@@ -1,29 +1,29 @@
-## 这个 PR 做了什么
+## What this PR does
 
-<!-- 选中一项 -->
-- [ ] `[2K] 新增` 登记一个新的 ARTEX 相关仓库
-- [ ] `[2K] 更正` 修改已有条目（编号：`ARTEX-2K-____`）
-- [ ] `[2K] 下架` 项目方要求移除（编号：`ARTEX-2K-____`）
-- [ ] 站点 / 数据管道 / 文档改动
+<!-- Tick one -->
+- [ ] `[2K] add` — register a new ARTEX-related repository
+- [ ] `[2K] fix` — correct an existing entry (number: `ARTEX-2K-____`)
+- [ ] `[2K] remove` — removal requested by the project (number: `ARTEX-2K-____`)
+- [ ] Site / data pipeline / docs change
 
-## 条目
+## Entry
 
-| 项 | 值 |
+| Field | Value |
 | --- | --- |
-| 仓库 | `owner/repo` |
-| 类型 | `fork` / `mirror` / `defense` / `tool` / `distribution` |
-| 自评等级 | Ⅰ / Ⅱ / Ⅲ / Ⅳ / Ⅴ / 不评级 |
-| 文件 | `data/submissions/____.json` |
+| Repository | `owner/repo` |
+| Type | `fork` / `mirror` / `defense` / `tool` / `distribution` |
+| Self-assessed tier | Ⅰ / Ⅱ / Ⅲ / Ⅳ / Ⅴ / not tiered |
+| File | `data/submissions/____.json` |
 
-## 自查
+## Checks
 
-- [ ] 仓库公开可访问，不是空仓库或纯 fork 快照
-- [ ] README / 简介 / commit 至少一处能证明基于 ARTEX
-- [ ] `desc` 与仓库简介一致，未润色、未翻译、未添加评价
-- [ ] `note` 只描述改动，没有攻击目标、受害者信息、隐私或密钥
-- [ ] 本地跑过 `node scripts/build-registry.mjs`，条目出现在 `data/registry.json`
-- [ ] 没有重复提交同一仓库
+- [ ] The repository is publicly reachable, not empty and not a bare fork snapshot
+- [ ] At least one of README / description / commits proves it is based on ARTEX
+- [ ] `desc` matches the repository's own description — not polished, translated or annotated
+- [ ] `note` only describes changes; no attack targets, victim information, private data or keys
+- [ ] `node scripts/build-registry.mjs` ran locally and the entry shows up in `data/registry.json`
+- [ ] The same repository was not submitted before
 
-## 说明
+## Notes
 
-<!-- 补充任何需要维护者知道的信息；下架申请请附身份证明方式 -->
+<!-- Anything the maintainer should know; removal requests should include a way to verify identity -->

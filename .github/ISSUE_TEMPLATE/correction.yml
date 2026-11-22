@@ -1,51 +1,53 @@
-name: 更正 / 下架申请
-description: 更正条目信息，或要求移除本站收录的仓库
-title: "[2K] 更正：ARTEX-2K-"
+name: Correction / removal request
+description: Correct an entry, or ask for a listed repository to be removed
+title: "[2K] correction: ARTEX-2K-"
 labels: ["correction"]
 body:
   - type: markdown
     attributes:
       value: |
-        本站只登记公开仓库与其自述。如果信息有误，或你代表项目方要求下架，请填写下面的内容。
-        更正与下架不需要 PR，维护者核对后会更新 `data/curation.json` 或 `data/exclude.json`。
+        This site only lists public repositories and their own descriptions. If something is wrong,
+        or you represent the project and want it removed, fill in the form below.
+        Corrections and removals do not need a PR — a maintainer updates `data/curation.json` or
+        `data/exclude.json` after checking.
   - type: dropdown
     id: action
     attributes:
-      label: 申请类型
+      label: Request type
       options:
-        - 更正描述 / 标签 / 等级
-        - 补充署名或上游链接
-        - 下架（仓库已删除或转私有）
-        - 下架（项目方要求）
+        - Correct description / tags / tier
+        - Add attribution or an upstream link
+        - Removal (repository deleted or made private)
+        - Removal (requested by the project)
     validations:
       required: true
   - type: input
     id: cert
     attributes:
-      label: 认证编号
-      description: 形如 ARTEX-2K-0013，在项目详情页顶部可以看到
+      label: Certificate number
+      description: Looks like ARTEX-2K-0013, shown at the top of the entry's page
       placeholder: ARTEX-2K-0013
     validations:
       required: true
   - type: input
     id: repo
     attributes:
-      label: 仓库地址
+      label: Repository URL
       placeholder: https://github.com/owner/repo
     validations:
       required: true
   - type: textarea
     id: detail
     attributes:
-      label: 需要修改什么
-      description: 请具体说明哪一项不对、应该改成什么，并附可核验的链接
-      placeholder: 简介里写的“二次开发”实际是上游官方分支，请改为 distribution……
+      label: What should change
+      description: Say exactly which field is wrong and what it should be, with a link we can verify
+      placeholder: The description says "secondary development", but this is an official upstream fork — please set the type to distribution…
     validations:
       required: true
   - type: textarea
     id: identity
     attributes:
-      label: 身份说明（仅下架需要）
-      description: 例如仓库 owner 账号、组织邮箱、或在该仓库 commit 记录中的可验证身份
+      label: Identity (removal requests only)
+      description: Repository owner account, organisation email, or something verifiable from the repository's commit history
     validations:
       required: false
