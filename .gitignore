@@ -1,7 +1,11 @@
 node_modules
 .next
 out
-.env*.local
+# 环境变量：连 .env 一起挡掉，避免有人顺手 git add -A 把密钥带上去
+.env
+.env.*
+!.env.example
+# 抓取时的临时快照
 build_data.py
 raw.json
 s1.json
@@ -12,4 +16,5 @@ upstream.json
 next-env.d.ts
 .DS_Store
 .next-*
+# 本地工作区与截图脚本，绝不上传
 /.workbuddy
