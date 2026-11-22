@@ -28,10 +28,16 @@ const SEARCHES = [
   "artex in:name,description&sort=stars&order=desc&per_page=100",
   "artex in:name&sort=updated&order=desc&per_page=100",
   "ARTEX 二开&sort=updated&order=desc&per_page=100",
-  "artex in:readme&sort=updated&order=desc&per_page=50",
 ];
+// 曾经用过 "artex in:readme"：任何 README 里提到过 ARTEX 的仓库都会被命中——
+// star 列表、dotfiles、资讯站、C2 框架全被当成「ARTEX 二开」收了进来。已废弃，勿再加回。
 
 const FORK_SOURCES = ["BaaRai/ARTEX", "RuoJi6/ARTEX"];
+
+// 新仓库（未人工策展、也不在上一版快照里）必须真的在名字/描述/话题里提到 ARTEX。
+// 用词边界判定：partex、artextile 这类只是恰好含子串的词不算。
+const ARTeX_TOKEN = /(?:^|[^a-z0-9])artex(?![a-z0-9])/i;
+const DEFENSE_HINT = /(detect|defens|ioc|detection|监控|检测|防御|取证|anti-?artex)/i;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -66,10 +72,24 @@ const previous = read(path.join(DATA, "repos.json"), []);
 const prevByRepo = new Map((Array.isArray(previous) ? previous : []).map((r) => [r.repo, r]));
 
 const found = new Map();
+const rejected = [];
+
+// 已审核过的（人工策展过，或上一版快照里就有）直接放行；
+// 新面孔必须自己证明与 ARTEX 有关，否则只进 rejected.json 等人工复核。
+const reviewed = new Set([...Object.keys(curation), ...prevByRepo.keys()]);
 
 function add(r) {
   if (!r || !r.full_name) return;
   if (exclude.has(r.full_name)) return;
+  if (reviewed.has(r.full_name)) {
+    found.set(r.full_name, r);
+    return;
+  }
+  const blob = `${r.name} ${r.description ?? ""} ${(r.topics ?? []).join(" ")}`;
+  if (!ARTeX_TOKEN.test(blob)) {
+    rejected.push({ repo: r.full_name, stars: r.stargazers_count ?? 0, desc: r.description ?? "" });
+    return;
+  }
   found.set(r.full_name, r);
 }
 
@@ -109,7 +129,7 @@ const repos = [...found.values()].map((r) => {
     created: (r.created_at ?? "").slice(0, 10),
     updated: (r.pushed_at ?? r.updated_at ?? "").slice(0, 10),
     topics: (r.topics ?? []).slice(0, 6),
-    kind: c.kind ?? prev.kind ?? "fork",
+    kind: c.kind ?? prev.kind ?? (DEFENSE_HINT.test(`${r.name} ${r.description ?? ""}`) ? "defense" : "fork"),
     tier: c.tier ?? prev.tier ?? 1,
     tags: c.tags ?? prev.tags ?? [],
     note: c.note ?? prev.note ?? null,
@@ -118,6 +138,16 @@ const repos = [...found.values()].map((r) => {
 
 repos.sort((a, b) => b.stars - a.stars || a.repo.localeCompare(b.repo));
 fs.writeFileSync(path.join(DATA, "repos.json"), JSON.stringify(repos, null, 1) + "\n");
+
+// 被挡下的新仓库留档：名字里看不出来和 ARTEX 有什么关系，需要人工过一眼。
+// 确认相关就写进 curation.json，下一轮会被 reviewed 放行。
+if (rejected.length) {
+  const prevRejected = read(path.join(DATA, "rejected.json"), []);
+  const merged = new Map((Array.isArray(prevRejected) ? prevRejected : []).map((x) => [x.repo, x]));
+  for (const r of rejected) merged.set(r.repo, { ...merged.get(r.repo), ...r, seenAt: new Date().toISOString().slice(0, 10) });
+  fs.writeFileSync(path.join(DATA, "rejected.json"), JSON.stringify([...merged.values()], null, 1) + "\n");
+  console.log(`rejected: ${rejected.length} 个新仓库无法证明与 ARTEX 相关，已写入 data/rejected.json`);
+}
 
 const metaPath = path.join(DATA, "meta.json");
 const meta = read(metaPath, {});

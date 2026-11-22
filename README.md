@@ -5,7 +5,7 @@
 ARTEX 上游（`Autumn-27/ARTEX`）已于 2026 年 10 月从 GitHub 删除，源码以 v0.3.15 的形式在数十个仓库间流转，
 改名、换皮、加装武器库后重新上线。这个站点把它们全部登记在册，按改动深度授予 Ⅰ—Ⅴ 级认证。
 
-- **登记册**：153 个仓库，77 个二开，覆盖 2.6 万 Stars（快照 2026-11-20）
+- **登记册**：261 个仓库，199 个二开，覆盖 3.0 万 Stars（快照 2026-11-22）
 - **认证详情**：每个条目一个编号、一枚 SVG 徽章、一段可引用的自述
 - **社区提交**：`data/submissions/*.json` + PR，合并后自动编号
 - **技术栈**：Next.js 16（App Router）· React 19 · TypeScript · 零 UI 依赖 · 纯 CSS
@@ -23,7 +23,7 @@ npm run build    # prebuild 会先合并 submissions
 ```
 app/
   page.tsx              首页：统计 + 认证名录（筛选/搜索/排序）
-  p/[id]/page.tsx       认证详情（静态生成 153 条）
+  p/[id]/page.tsx       认证详情（构建时静态生成全部条目）
   badge/[file]/route.ts SVG 认证徽章
   about/page.tsx        认证规则、分级标准、免责
   globals.css           设计令牌与全部样式

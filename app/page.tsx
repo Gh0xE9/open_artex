@@ -115,7 +115,8 @@ export default function Home() {
             </p>
             <p>
               这不是个案。同一份源码，只换了一层皮，就在汇报里成了「我们的自研平台」，从头到尾一个字没提
-              ARTEX。名录里 {stats.forks} 个二开项目，只有 {stats.attributedForks} 个在简介里写了来源。
+              ARTEX。名录里 {stats.forks} 个二开项目，{stats.attributedForks} 个写了来源，
+              {stats.forks - stats.attributedForks} 个没写。
             </p>
             <p>
               这不叫二开。二开是在别人的地基上继续盖，并且说清楚地基是谁打的。Ⅰ
