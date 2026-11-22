@@ -22,8 +22,10 @@ const PAGE = 24;
 
 export function Registry({ repos }: { repos: Repo[] }) {
   const router = useRouter();
-  const { c } = useI18n();
+  const { c, lang } = useI18n();
   const t = c.registry;
+  /* 英文页面优先用英译简介；没有译本（本来就是英文或无简介）时回落到原文 */
+  const descOf = (r: Repo) => (lang === "en" ? r.descEn || r.desc : r.desc);
   const [filter, setFilter] = useState<FilterKey>("all");
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<"stars" | "updated" | "id">("stars");
@@ -36,7 +38,7 @@ export function Registry({ repos }: { repos: Repo[] }) {
     if (f.kinds.length) list = list.filter((r) => f.kinds.includes(r.kind));
     if (q) {
       list = list.filter((r) =>
-        [r.name, r.repo, r.desc, r.owner, r.tags.join(" "), r.note ?? ""]
+        [r.name, r.repo, r.desc, r.descEn ?? "", r.owner, r.tags.join(" "), r.note ?? ""]
           .join(" ")
           .toLowerCase()
           .includes(q),
@@ -149,8 +151,8 @@ export function Registry({ repos }: { repos: Repo[] }) {
                         </span>
                       ) : null}
                     </div>
-                    <div className={`p-desc-m${r.desc ? "" : " empty"}`}>
-                      {r.desc || t.noDesc}
+                    <div className={`p-desc-m${descOf(r) ? "" : " empty"}`}>
+                      {descOf(r) || t.noDesc}
                     </div>
                   </td>
                   <td className="col-kind">
@@ -169,7 +171,7 @@ export function Registry({ repos }: { repos: Repo[] }) {
                     )}
                   </td>
                   <td className="col-desc">
-                    <div className={`p-desc${r.desc ? "" : " empty"}`}>{r.desc || t.noDesc}</div>
+                    <div className={`p-desc${descOf(r) ? "" : " empty"}`}>{descOf(r) || t.noDesc}</div>
                   </td>
                   <td className="col-stars" style={{ textAlign: "right" }}>
                     <span className="num">{r.stars.toLocaleString("en-US")}</span>

@@ -64,7 +64,7 @@ const en = {
       strong: "A certificate is not an endorsement",
       post: " — only a note that we noticed you.",
     },
-    note: "Scope: public GitHub repositories whose name, description, or topics mention ARTEX — derivatives, mirrors, defensive research, tooling. Every field is quoted from the repository itself. Nothing is independently verified, and no source code is hosted here.",
+    note: "Scope: public GitHub repositories whose name, description, or topics mention ARTEX — derivatives, mirrors, defensive research, tooling. Every field is quoted from the repository itself; descriptions written in Chinese are shown in English translation on this side, never rewritten. Nothing is independently verified, and no source code is hosted here.",
   },
 
   sealPanel: {
@@ -178,6 +178,7 @@ const en = {
     no: (id: string) => `CERTIFICATE № ${id}`,
     notRated: "Registered",
     emptyQuote: "This repository has no description. Only its URL and basic metadata are recorded.",
+    translated: "Translated from the repository's original description.",
     noteLabel: "Note",
     type: "Type",
     tier: "Tier",
@@ -377,7 +378,7 @@ const zh: Copy = {
       strong: "认证不代表认可",
       post: "，只代表我们看见你。",
     },
-    note: "收录口径：仓库名、简介或话题涉及 ARTEX 的公开 GitHub 仓库，含二开、镜像备份、防御检测与周边工具。全部字段取自仓库自述，本站不做二次核验，也不托管任何源码。",
+    note: "收录口径：仓库名、简介或话题涉及 ARTEX 的公开 GitHub 仓库，含二开、镜像备份、防御检测与周边工具。全部字段取自仓库自述；中文简介在英文页面显示英译，不做改写，原文仍保留在中文页面。本站不做二次核验，也不托管任何源码。",
   },
 
   sealPanel: {
@@ -491,6 +492,7 @@ const zh: Copy = {
     no: (id: string) => `CERTIFICATE № ${id}`,
     notRated: "登记",
     emptyQuote: "该仓库未填写简介，仅登记仓库地址与基础元数据。",
+    translated: "译自仓库原始简介。",
     noteLabel: "备案备注",
     type: "类型",
     tier: "认证等级",

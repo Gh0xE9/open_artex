@@ -1104,6 +1104,17 @@ table.registry td:last-child {
   border-left-color: var(--line-2);
 }
 
+/* 英译简介的出处标注：只在英文页、且该条目原简介是中文时出现 */
+.desc-src {
+  margin: 8px 0 0;
+  padding-left: 16px;
+  font-family: var(--mono);
+  font-size: 8.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 .cert-note {
   margin: 18px 0 0;
   font-size: 12px;

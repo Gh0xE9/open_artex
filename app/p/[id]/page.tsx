@@ -16,11 +16,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!r) return { title: "Not found" };
   return {
     title: `${r.name} · ${r.id}`,
-    description: r.desc || `${r.repo} — ARTEX derivative record`,
+    description: r.descEn || r.desc || `${r.repo} — ARTEX derivative record`,
     alternates: { canonical: `${SITE_URL}/p/${r.id}` },
     openGraph: {
       title: `${r.id} — ${r.repo}`,
-      description: r.desc,
+      description: r.descEn || r.desc || `${r.repo} — ARTEX derivative record`,
       url: `${SITE_URL}/p/${r.id}`,
     },
   };

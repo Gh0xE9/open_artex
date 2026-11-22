@@ -23,6 +23,8 @@ export function CertView({
   const tier = tierOf(repo.tier);
   const tierText = tier ? c.tiers[tier.n - 1] : null;
   const note = noteIn(lang, repo.note);
+  const desc = lang === "en" && repo.descEn ? repo.descEn : repo.desc;
+  const translated = lang === "en" && !!repo.descEn;
   const badgeMd = badgeMarkdown(repo.id, lang);
   const tierLabel = tier && tierText ? `${tier.roman} · ${tierText.label}` : null;
 
@@ -53,9 +55,8 @@ export function CertView({
           </div>
         </div>
 
-        <blockquote className={`quote${repo.desc ? "" : " empty"}`}>
-          {repo.desc || t.emptyQuote}
-        </blockquote>
+        <blockquote className={`quote${desc ? "" : " empty"}`}>{desc || t.emptyQuote}</blockquote>
+        {translated ? <p className="desc-src">{t.translated}</p> : null}
 
         {note ? (
           <p className="cert-note">
