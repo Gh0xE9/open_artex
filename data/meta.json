@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-21",
+  "syncedAt": "2026-11-22",
   "upstream": "BaaRai/ARTEX",
   "queries": [
     "artex in:name,description",
@@ -9,7 +9,7 @@
     "forks BaaRai/ARTEX",
     "forks RuoJi6/ARTEX"
   ],
-  "total": 298,
-  "forks": 232,
-  "stars": 32035
+  "total": 304,
+  "forks": 242,
+  "stars": 31089
 }
